@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>Is this printing out!! </p>
-        <ReactP5Wrapper sketch={sketch} />
+        
       </header>
     </div>
   );
