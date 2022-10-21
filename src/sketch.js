@@ -1,58 +1,189 @@
-import { ModuleResolutionKind } from "typescript";
-
 export default function sketch(p) {
-  let canvas;
-  var streams = [];
-  var fadeInterval = 1.6;
-  var symbolSize = 14;
-
-  p.setup = () => {
-    canvas = p.createCanvas(window.innerHeight, window.innerWidth);
-    p.background(0);
-
-    var x = 0;
-    for (var i = 0; i <= width / symbolSize; i++) {
-      var stream = new Stream();
-      stream.generateSymbols(x, random(-2000, 0));
-      streams.push(stream);
-      x += symbolSize;
+  class Letter {
+    constructor(x, y, d) {
+      this.char = Letter.getChar();
+      this.x = x;
+      this.y = y;
+      this.d = d;
     }
-    textFont("Consolas");
-    textSize(symbolSize);
-  };
 
-  p.draw = (x, y) => {
-    background(0, 150);
-    streams.forEach(function (stream) {
-      stream.render();
-    });
-  };
+    draw(index) {
+      p.textSize(this.d);
 
-  function Symbol(x, y, speed, first, opacity) {
-    this.x = x;
-    this.y = y;
-    this.value;
-
-    this.speed = speed;
-    this.first = first;
-    this.opacity = opacity;
-
-    this.switchInterval = round(random(2, 25));
-
-    this.setToRandomSymbol = function () {
-      var charType = round(random(0, 5));
-      if (frameCount % this.switchInterval == 0) {
-        if (charType > 1) {
-          // set it to Katakana
-          this.value = String.fromCharCode(0x30a0 + floor(random(0, 97)));
-        } else {
-          // set it to numeric
-          this.value = floor(random(0, 10));
-        }
+      if (index === 0) {
+        // If it's the first one make it white
+        p.fill(255, 200);
+      } else {
+        // Otherwise make it green and fade it out more when it's towards then end
+        p.fill(50, 255, 50, 200 - (index * 200) / 25);
       }
-    };
+
+      p.text(this.char, this.x * (p.width / total), this.y);
+    }
+
+    switch() {
+      this.char = Letter.getChar();
+    }
+
+    static getChar() {
+      //array with leters in my name
+      const kArray = [
+        "K",
+        "A",
+        "Y",
+        "L",
+        "E",
+        " ",
+        "R",
+        "O",
+        "B",
+        "S",
+        "O",
+        "N",
+      ];
+      //return a letter from the array be shown
+      let randomLetter = kArray[Math.floor(Math.random() * kArray.length)];
+      return randomLetter;
+    }
   }
-  this.rain = function () {
-    this.y = this.y >= height ? 0 : (this.y += this.speed);
+
+  class Stream {
+    constructor(x, y, ys) {
+      this.x = x;
+      this.y = y;
+      this.ys = ys;
+      this.letters = [];
+
+      // Use the y speed to figure out the diameter
+      this.d = ys * 2.5;
+      this.spacing = this.d + 2;
+
+      this.regenerateLetters();
+    }
+
+    regenerateLetters() {
+      this.letters = [];
+      for (let i = 0; i < 11; i++) {
+        this.letters.push(
+          new Letter(this.x, this.y - i * this.spacing, this.d)
+        );
+      }
+    }
+
+    draw() {
+      // Update the position
+      this.update();
+
+      // Draw each letter
+      this.letters.forEach((l, i) => l.draw(i));
+
+      // 10% chance to randomly switch a letter
+      if (p.random(1, 100) < 10) {
+        this.letters[p.floor(p.random(this.letters.length))].switch();
+      }
+    }
+
+    update() {
+      // Add the speed to the stream head position
+      this.y += this.ys;
+
+      // If there is enough space to add a letter at the start
+      if (this.y >= this.letters[0].y + this.spacing) {
+        // Add a new letter at the start
+        this.letters.unshift(new Letter(this.x, this.y, this.d));
+
+        // Remove the last item
+        this.letters.pop();
+      }
+
+      // If the last character has gone off the screen
+      if (this.letters[this.letters.length - 1].y > p.height + this.d) {
+        // Reset the head to the top of the screen
+        this.y = 0;
+
+        // Regenerate letters as all x values will change
+        this.regenerateLetters();
+      }
+    }
+  }
+
+  let total = 80;
+  let rain = [];
+  let timerValue = 10;
+  let timerValue2 = 7;
+
+  p.setup = function () {
+    p.createCanvas(window.innerWidth, window.innerHeight);
+
+    p.noStroke();
+    p.textStyle(p.BOLD);
+
+    // Create streams
+    for (let i = 0; i < total; i++) {
+      rain.push(new Stream(i, p.random(1, p.height), p.random(2, 10)));
+    }
+    //for timer
+    p.textAlign(p.CENTER);
+    //interval timer in setup
+    setInterval(p.timeIt, 500);
+    setInterval(p.timeLoop, 1500);
+  };
+
+  p.draw = function () {
+    p.background(0);
+    //interval time to print game over at 5seconds
+
+    //timerValue hits zero
+    if (timerValue === 0) {
+      //create the array of letters in my name
+      // const kArray = [
+      //   "K",
+      //   "A",
+      //   "Y",
+      //   "L",
+      //   "E",
+      //   " ",
+      //   "R",
+      //   "O",
+      //   "B",
+      //   "S",
+      //   "O",
+      //   "N",
+      // ];
+      // flicker white and black
+      var fireRed = p.random(255);
+      var fireGreen = p.random(fireRed);
+      // var fireBlue = random(fireGreen);
+      p.stroke(0);
+      p.textSize(42);
+      p.fill(fireRed, fireGreen);
+      p.text("K A Y L E   R O B S O N", p.width / 2, p.height / 2 + 25);
+      rain.forEach((s) => s.draw());
+      if (timerValue2 === 0) {
+        p.background(0);
+        rain.forEach((s) => s.draw());
+      }
+    }
+    // if the second time goes it takes Kayle off and then goes back to raining
+    else {
+      rain.forEach((s) => s.draw());
+    }
+  };
+
+  //timer for interval timer for raining
+  p.timeIt = function () {
+    if (timerValue > 0) {
+      timerValue--;
+    }
+  };
+
+  p.timeLoop = function () {
+    if (timerValue2 > 0) {
+      timerValue2--;
+    }
+  };
+
+  p.windowResized = function () {
+    p.resizeCanvas(window.innerWidth, window.innerHeight);
   };
 }
