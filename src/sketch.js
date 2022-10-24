@@ -135,37 +135,23 @@ export default function sketch(p) {
 
     //timerValue hits zero
     if (timerValue === 0) {
-      //create the array of letters in my name
-      // const kArray = [
-      //   "K",
-      //   "A",
-      //   "Y",
-      //   "L",
-      //   "E",
-      //   " ",
-      //   "R",
-      //   "O",
-      //   "B",
-      //   "S",
-      //   "O",
-      //   "N",
-      // ];
-      // flicker white and black
-      var fireRed = p.random(255);
-      var fireGreen = p.random(fireRed);
-      // var fireBlue = random(fireGreen);
+      var fireWhite = p.random(255);
+      var fireGreen = p.random(fireWhite);
       p.stroke(0);
       p.textSize(42);
-      p.fill(fireRed, fireGreen);
-      p.text("K A Y L E   R O B S O N", p.width / 2, p.height / 2 + 25);
+      p.fill(fireWhite, fireGreen);
+      //if window is less then 768px show name in two lines, else show name in one line
+      window.innerWidth < 768
+        ? p.text(`K A Y L E\nR O B S O N`, p.width / 2, p.height / 4)
+        : p.text("K A Y L E   R O B S O N", p.width / 2, p.height / 4);
       rain.forEach((s) => s.draw());
+
       if (timerValue2 === 0) {
         p.background(0);
         rain.forEach((s) => s.draw());
+        p.resetTimers();
       }
-    }
-    // if the second time goes it takes Kayle off and then goes back to raining
-    else {
+    } else {
       rain.forEach((s) => s.draw());
     }
   };
@@ -177,10 +163,17 @@ export default function sketch(p) {
     }
   };
 
+  //timer interval to stop flashing name
   p.timeLoop = function () {
     if (timerValue2 > 0) {
       timerValue2--;
     }
+  };
+
+  //reset timers so blinking name loops
+  p.resetTimers = function () {
+    timerValue = 20;
+    timerValue2 = 10;
   };
 
   p.windowResized = function () {
