@@ -18,7 +18,10 @@ export default function sketch(p) {
         p.fill(50, 255, 50, 200 - (index * 200) / 25);
       }
 
-      p.text(this.char, this.x * (p.width / total), this.y);
+      //adjust letters depending on the size of the screen
+      window.innerWidth < 768
+        ? p.text(this.char, this.x * ((p.width * 2) / total), this.y)
+        : p.text(this.char, this.x * (p.width / total), this.y);
     }
 
     switch() {
@@ -113,7 +116,9 @@ export default function sketch(p) {
   let timerValue2 = 7;
 
   p.setup = function () {
-    p.createCanvas(window.innerWidth, window.innerHeight);
+    window.innerWidth < 768
+      ? p.createCanvas(window.innerWidth, window.innerHeight * 0.8)
+      : p.createCanvas(window.innerWidth, window.innerHeight * 0.9);
 
     p.noStroke();
     p.textStyle(p.BOLD);
@@ -142,8 +147,8 @@ export default function sketch(p) {
       p.fill(fireWhite, fireGreen);
       //if window is less then 768px show name in two lines, else show name in one line
       window.innerWidth < 768
-        ? p.text(`K A Y L E\nR O B S O N`, p.width / 2, p.height / 4)
-        : p.text("K A Y L E   R O B S O N", p.width / 2, p.height / 4);
+        ? p.text(`K A Y L E\nR O B S O N`, p.width / 2, p.height / 2)
+        : p.text("K A Y L E   R O B S O N", p.width / 2, p.height / 2);
       rain.forEach((s) => s.draw());
 
       if (timerValue2 === 0) {
