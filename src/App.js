@@ -1,15 +1,13 @@
-import { ReactP5Wrapper } from "react-p5-wrapper";
-import sketch from "./sketch";
 import "./App.css";
+import About from "./components/About/About";
+import Banner from "./components/Banner/Banner";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Is this printing out!! </p>
-        <ReactP5Wrapper sketch={sketch} />
-      </header>
-    </div>
+    <>
+      <Banner />
+      <About />
+    </>
   );
 }
 
