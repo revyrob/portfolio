@@ -1,5 +1,7 @@
 @use '../../styles/mixins' as *;
-
+body {
+    background-color: black;
+}
 .banner {
     position: relative;
     background-color: black;
@@ -22,10 +24,14 @@
         }
     }
     &__about {
-        background-color: black;
+        text-align: right;
+        justify-content: center;
         color: white;
         position: absolute;
-        top: 80vh;
+        top: 75vh;
         right: 10vw;
+        font-size: 1.75rem;
+        width: 60%;
+        font-weight: 700;
     }
 }
