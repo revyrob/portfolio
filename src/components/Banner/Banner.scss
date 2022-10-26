@@ -14,7 +14,6 @@ body {
         height: 70vh;
         margin-bottom: 3rem;
         @include desktop {
-            //this will be for desktop
         position: absolute;
         transform: skewY(-0.03turn);
         transform-origin: top left;

@@ -1,0 +1,42 @@
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+
+.nav {
+
+    &__style {
+        background-color: white;
+        color:white;
+        border-top: 1px solid black;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        border-top: 1px solid black;
+        height: 65px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        @include tablet {
+            display: none;
+        }
+    }
+    &__img{
+        margin: 1rem 0;
+        height: 30px;
+        width: 30px;
+        &:hover {
+            // z-index: -1;
+            // padding: 1.5rem;
+            border-radius: 50%;
+            background-image: radial-gradient(white, green);
+        }
+    }
+}
+.phantomStyle{
+    display: block;
+    padding: 20px;
+    height: 44px;
+    width: 100%;
+    
+}
