@@ -1,13 +1,15 @@
-import "./App.css";
-import About from "./components/About/About";
-import Banner from "./components/Banner/Banner";
+import "./App.scss";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import LandingPage from "./pages/LandingPage";
 
 function App() {
   return (
-    <>
-      <Banner />
-      <About />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
