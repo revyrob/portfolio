@@ -5,7 +5,7 @@ import './Banner.scss';
 
 function Banner() {
     return(
-        <div className="banner">
+        <section className="banner">
             <div className="banner__sketch">
                 <ReactP5Wrapper sketch={sketch} />
             </div>
@@ -26,7 +26,7 @@ function Banner() {
                 loop
                 />
             </div>
-        </div>
+        </section>
         );
     };
     

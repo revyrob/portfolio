@@ -4,8 +4,9 @@ import NavBar from "../components/Navbar/NavBar";
 function LandingPage() {
   return (
     <section className="landing">
+        <NavBar />
       <Banner />
-      <NavBar />
+      
     </section>
   );
 }

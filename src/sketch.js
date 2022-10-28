@@ -142,7 +142,7 @@ export default function sketch(p) {
     if (timerValue === 0) {
       var fireWhite = p.random(255);
       var fireGreen = p.random(fireWhite);
-      p.stroke(0);
+      // p.stroke(0);
       p.textSize(42);
       p.fill(fireWhite, fireGreen);
       //if window is less then 768px show name in two lines, else show name in one line
