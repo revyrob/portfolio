@@ -3,28 +3,39 @@
 
 
 .nav {
+    height: 4.0625rem;
     color:white;
-        position: fixed;
-       
-        padding: 20px;
-        height: 44px;
-        width: 100%;
-        background-color: black;
-        z-index: 10;
+    position: fixed;
+    padding: 1.25rem;
+    width: 100%;
+    background-color: black;
+    z-index: 10;
+    @include desktop {
+        height: 2.75rem;
+    }
     &__list {
-       text-decoration: none;
-       display: flex;  
-       justify-content: space-between;
+        text-decoration: none;
+        display: flex;  
+        justify-content: space-between;
     }
     &__img{
         margin: 1rem 0;
-        height: 30px;
-        width: 30px;
+        height: 1.875rem;
+        width: 1.875rem;
         &:hover {
-            // z-index: -1;
-            // padding: 1.5rem;
             border-radius: 50%;
             background-image: radial-gradient(white, green);
         }
     }
+}
+.navbar-collapse {
+    z-index: 10;
+    display: flex;
+}
+.container-fluid {
+    z-index: 10;
+    max-width: 1280px;
+}
+.show {
+    z-index: 10;
 }
