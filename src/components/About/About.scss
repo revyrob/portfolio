@@ -1,8 +1,15 @@
 @use '../../styles/mixins' as *;
 
 .about {
-    position: absolute;
-    top:80vh;
-    right: 10vw;
-    color:black;
+    display: flex;
+    margin: 1rem;
+    &__title {
+        font-size: 2rem;
+    }
+    &__div1 {
+        width: 60%;
+    }
+    &__div2 {
+        width: 40%;
+    }
 }

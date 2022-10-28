@@ -1,11 +1,12 @@
 @use '../../styles/mixins' as *;
-body {
-    background-color: black;
-}
+// body {
+//     background-color: black;
+// }
 .banner {
     position: relative;
     background-color: black;
     &__sketch {
+        z-index: -1;
         position: absolute;
         transform: skewY(-0.04turn);
         transform-origin: top left;
@@ -20,14 +21,17 @@ body {
         top:0;
         bottom: auto;
         height: 80vh;
+        
         }
     }
     &__about {
+        // background-color: black;
+        // padding: 5rem 10rem;
         text-align: right;
         justify-content: center;
-        color: white;
+        color: black;
         position: absolute;
-        top: 75vh;
+        top: 80vh;
         right: 10vw;
         font-size: 1.75rem;
         width: 60%;
