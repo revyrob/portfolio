@@ -2,10 +2,11 @@
 @use '../../styles/mixins' as *;
 
 
-.nav {
+.navBar {
     height: 4.0625rem;
     color:white;
-    position: fixed;
+    display: flex;
+    justify-content: center;
     padding: 1.25rem;
     width: 100%;
     background-color: black;
