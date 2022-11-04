@@ -1,13 +1,5 @@
-import './About.scss';
-import kayle from '../../assets/images/kayle.jpg';
-import github from '../../assets/icons/github.jpg';
-import linkedIn from '../../assets/icons/icon-linkedin.png';
-import instagram from '../../assets/icons/icon-instagram.png';
-
-
-function About() {
-    return (
-        <section className="about">
+function AboutText() {
+    return(
         <div className='about__info'>
         <h1 className='about__title'>I'm Kayle Robson.  I am fervid about coding and hackathons!</h1>
         
@@ -26,23 +18,6 @@ function About() {
         coding problems, and follow best practices in the Web Development industry.  I plan and deliver supplementary content to enrich 
         the learning experience of students.</p>
         </div>
-        <div className='about__more'>
-        <img className='about__imgSelf' src={kayle} alt='kayle robson portrait'/>
-        <div className='about__social'>
-            <div className='about__socialListItem'>
-            <img className='about__social--icon' src={github} alt='github icon' /><p className='about__social--p'>Follow on Github</p>
-            </div>
-            <div className='about__socialListItem'>
-            <img className='about__social--icon' src={linkedIn} alt='linkedIn icon' /><p className='about__social--p'>Follow on LinkedIn</p>
-            </div>            
-            <div className='about__socialListItem'>
-            <img className='about__social--icon' src={instagram} alt='instagram icon' /><p className='about__social--p'>Follow on Instagram</p>
-            </div>        
-        </div>
-        </div>
-        
-        </section>
         );
     }
-    
-    export default About;
+    export default AboutText;
