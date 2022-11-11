@@ -1,4 +1,5 @@
 import "./Card.scss";
+import { v4 as uuidv4 } from "uuid";
 
 function Card({ title, description, image, toolSkill }) {
   return (
@@ -27,6 +28,9 @@ function Card({ title, description, image, toolSkill }) {
             <h3 className="flip-box-header">{title}</h3>
             <p>{description}</p>
             <h3 className="flip-box-header">Tools</h3>
+            {toolSkill && toolSkill.map((tool)=> {
+              <ul key={tool.tool}
+            })}
             <p>{toolSkill}</p>
             <button className="flip-box-button">Learn More</button>
           </div>
