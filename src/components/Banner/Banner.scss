@@ -5,6 +5,8 @@
 .banner {
     position: relative;
     background-color: black;
+    width: 100%;
+    height: 100%;
     &__sketch {
         z-index: -1;
         position: absolute;
