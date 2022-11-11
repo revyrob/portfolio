@@ -3,10 +3,12 @@ import kayle from '../../assets/images/kayle.jpg';
 import github from '../../assets/icons/github.jpg';
 import linkedIn from '../../assets/icons/icon-linkedin.png';
 import instagram from '../../assets/icons/icon-instagram.png';
+import BottomNav from '../BottomNav/BottomNav';
 
 
 function About() {
     return (
+        <>
         <section className="about">
         <div className='about__info'>
         <h1 className='about__title'>I'm Kayle Robson.  I am fervid about coding and hackathons!</h1>
@@ -42,6 +44,7 @@ function About() {
         </div>
         
         </section>
+        </>
         );
     }
     

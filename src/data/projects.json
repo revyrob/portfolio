@@ -14,6 +14,18 @@
         "code": "https://github.com/revyrob/operation-mother-earth-client"
     },
     {
+        "id": "7c5429bd-8e07-4380-aab3-e57f891b480a",
+        "name": "Telus Hackathon",
+        "description": "Hackathon Project, streamline Telus streaming packages ",
+        "image": "/images/telus.png",
+        "toolSkill": [
+            "React",
+            "Sass",
+            "Framer Motion"
+        ],
+        "code": "https://github.com/revyrob/streaming-packages"
+    },
+    {
         "id": "42308591-15f7-447c-b64e-061ba4a94c21",
         "name": "Pokemon Weather App",
         "description": "Find the weather in location, find ",
@@ -25,6 +37,19 @@
             "Sass"
         ],
         "code": "https://github.com/revyrob/pokemon-weather-server"
+    },
+    {
+        "id": "7c5429bd-8e07-4380-aab3-e57f541b498a",
+        "name": "Eureka",
+        "description": "Hackathon Project, web appliation for mental health",
+        "image": "/images/euruka.png",
+        "toolSkill": [
+            "Heroku",
+            "EJs",
+            "Javascript",
+            "CSS"
+        ],
+        "code": "https://github.com/revyrob/Eureka"
     },
     {
         "id": "574d6a7b-3ef9-4b33-a21e-cf4ab4a3fb9b",
@@ -52,19 +77,6 @@
         "code": "https://github.com/revyrob/bikeBrianconV1"
     },
     {
-        "id": "cf44c818-6f47-4059-ba8c-8987e660cda4",
-        "name": "Bike Briancon V2",
-        "description": "Version 2: Bike web application for Serre Chevalier Valley in France",
-        "image": "/images/bike-brianconV2.png",
-        "toolSkill": [
-            "HTML",
-            "CSS",
-            "Javascript",
-            "Bootstrap"
-        ],
-        "code": "https://github.com/revyrob/bikeBriancon"
-    },
-    {
         "id": "7c5429bd-8e07-4380-aab3-e57f541b480a",
         "name": "Briancon Fantomes",
         "description": "Audio tour for the medieval town of Briancon",
@@ -76,5 +88,18 @@
             "Bootstrap"
         ],
         "code": "https://brianconfantomes.com/"
+    },
+    {
+        "id": "cf44c818-6f47-4059-ba8c-8987e660cda4",
+        "name": "Bike Briancon V2",
+        "description": "Version 2: Bike web application for Serre Chevalier Valley in France",
+        "image": "/images/bike-brianconV2.png",
+        "toolSkill": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Bootstrap"
+        ],
+        "code": "https://github.com/revyrob/bikeBriancon"
     }
 ]

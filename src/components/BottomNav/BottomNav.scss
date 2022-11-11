@@ -1,8 +1,8 @@
 .bottomNav{
-    position: fixed;
+    position: absolute;
     left: 50%;
-    bottom: 15px;
-    transform: translate(-50%, -50%);
+    bottom: 0;
+    transform: translate(-50%, 0);
     margin: 0 auto;
     display: flex;
     &__link {
@@ -11,7 +11,7 @@
         align-items: center;
     }
     &__logo {
-        height: 4rem;
+        height: 3rem;
         margin: 0 4rem;
     }
 
