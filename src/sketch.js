@@ -116,6 +116,11 @@ export default function sketch(p) {
   let timerValue2 = 7;
 
   p.setup = function () {
+    //I am trying to resize the window here
+    if (window.onresize) {
+      p.windowResized();
+    }
+
     window.innerWidth < 768
       ? p.createCanvas(window.innerWidth, window.innerHeight * 0.8)
       : p.createCanvas(window.innerWidth, window.innerHeight * 0.9);
@@ -135,6 +140,11 @@ export default function sketch(p) {
   };
 
   p.draw = function () {
+    //I am trying to resize the window here
+    if (window.onresize) {
+      p.windowResized();
+    }
+
     p.background(0);
     //interval time to print game over at 5seconds
 
