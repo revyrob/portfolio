@@ -76,7 +76,7 @@
   .flip-box .inner {
     position: absolute;
     left: 0;
-    width: 100%;
+    // width: 100%;
     padding: 60px;
     outline: 1px solid transparent;
     -webkit-perspective: inherit;
@@ -100,6 +100,7 @@
   
   .flip-box-img {
     margin-top: 25px;
+    margin-left: 100px;
   }
   
   .flip-box-button {
@@ -118,3 +119,4 @@
   .wrapper-text {
     backdrop-filter: blur(5px);
   }
+

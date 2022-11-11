@@ -25,14 +25,12 @@ function Card({ title, description, image, toolSkill }) {
         </div>
         <div className="flip-box-back text-center">
           <div className="inner color-white">
+            <div className="wrapper-text">
             <h3 className="flip-box-header">{title}</h3>
             <p>{description}</p>
-            <h3 className="flip-box-header">Tools</h3>
-            {toolSkill && toolSkill.map((tool)=> {
-              <ul key={tool.tool}
-            })}
-            <p>{toolSkill}</p>
+
             <button className="flip-box-button">Learn More</button>
+            </div>
           </div>
         </div>
       </div>
