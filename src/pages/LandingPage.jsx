@@ -1,10 +1,11 @@
 import Banner from "../components/Banner/Banner";
-import NavBar from "../components/Navbar/NavBar";
+import Nav from '../components/Nav/Nav';
+import '../App.scss';
 
 function LandingPage() {
   return (
     <section className="landing">
-      <NavBar />
+      <Nav />
       <Banner />
     </section>
   );

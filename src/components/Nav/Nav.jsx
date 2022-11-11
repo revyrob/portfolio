@@ -12,11 +12,13 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import { Laptop } from '@mui/icons-material';
+import { Link } from 'react-router-dom';
+import './Nav.scss';
 
 const pages = ['About', 'Projects', 'Videos'];
 //const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
-function ResponsiveAppBar() {
+function Nav() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -86,7 +88,9 @@ function ResponsiveAppBar() {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
+                  <Link to={page}>
                   <Typography textAlign="center">{page}</Typography>
+                  </Link>
                 </MenuItem>
               ))}
             </Menu>
@@ -110,8 +114,9 @@ function ResponsiveAppBar() {
           >
             KR
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex'}, style: {textDecoration:'none'} }}>
             {pages.map((page) => (
+              <Link to={page}>
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
@@ -119,6 +124,7 @@ function ResponsiveAppBar() {
               >
                 {page}
               </Button>
+              </Link>
             ))}
           </Box>
 
@@ -150,4 +156,4 @@ function ResponsiveAppBar() {
     </section>
   );
 }
-export default ResponsiveAppBar;
+export default Nav;
