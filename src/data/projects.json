@@ -2,7 +2,7 @@
     {
         "id": "3f6d5660-f025-4892-8688-00cfd44974ba",
         "name": "Operation Mother Earth",
-        "description": "A multi-page appliation for school-age children to learn about e-waste through a game, e-waste API locator, and an education area",
+        "description": "A multi-page appliation for school-age children to learn about e-waste.",
         "image": "/images/operation-mother-earth.png",
         "toolSkill": [
             "React",
@@ -10,7 +10,8 @@
             "Node.js",
             "Express",
             "Google APIs"
-        ]
+        ],
+        "code": "https://github.com/revyrob/operation-mother-earth-client"
     },
     {
         "id": "42308591-15f7-447c-b64e-061ba4a94c21",
@@ -22,53 +23,58 @@
             "RESTful APIs",
             "Agile Methodology",
             "Sass"
-        ]
+        ],
+        "code": "https://github.com/revyrob/pokemon-weather-server"
     },
     {
         "id": "574d6a7b-3ef9-4b33-a21e-cf4ab4a3fb9b",
         "name": "Chateau de Bussiere",
         "description": "Website Chateau tours in France",
-        "image": "/images/website.png",
+        "image": "/images/chateau-bussiere.png",
         "toolSkill": [
             "HTML",
             "CSS",
             "Bootstrap"
-        ]
+        ],
+        "code": "https://github.com/revyrob/chateaubussiere"
     },
     {
         "id": "01880db0-6dc3-400f-bcb2-5d26b6715384",
         "name": "Bike Briancon V1",
         "description": "Version 1: Bike web application for Serre Chevalier Valley in France",
-        "image": "/images/screenshot_bike_node.png",
+        "image": "/images/bike-brianconV1.png",
         "toolSkill": [
             "ES6",
             "Heroku",
             "Javascript",
             "QGIS"
-        ]
+        ],
+        "code": "https://github.com/revyrob/bikeBrianconV1"
     },
     {
         "id": "cf44c818-6f47-4059-ba8c-8987e660cda4",
         "name": "Bike Briancon V2",
         "description": "Version 2: Bike web application for Serre Chevalier Valley in France",
-        "image": "/images/screenshot_bike.png",
+        "image": "/images/bike-brianconV2.png",
         "toolSkill": [
             "HTML",
             "CSS",
             "Javascript",
             "Bootstrap"
-        ]
+        ],
+        "code": "https://github.com/revyrob/bikeBriancon"
     },
     {
         "id": "7c5429bd-8e07-4380-aab3-e57f541b480a",
         "name": "Briancon Fantomes",
         "description": "Audio tour for the medieval town of Briancon",
-        "image": "/images/screenshot_fantomes.png",
+        "image": "/images/briancon-fantomes.png",
         "toolSkill": [
             "HTML",
             "CSS",
             "Javascript",
             "Bootstrap"
-        ]
+        ],
+        "code": "https://brianconfantomes.com/"
     }
 ]

@@ -91,6 +91,9 @@
   
   .flip-box-header {
     font-size: 24px;
+    &--sub {
+      font-size: 22px;
+    }
   }
   
   .flip-box p {
@@ -105,18 +108,39 @@
   
   .flip-box-button {
     background-color: transparent;
-    border: 2px solid #fff;
-    border-radius: 2px;
+    // border: 2px solid #fff;
     color: #fff;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
-    margin-top: 25px;
-    padding: 15px 20px;
+    position: absolute;
+    padding: 20px 25px;
     text-transform: uppercase;
+    bottom: 0;
+    right: 0;
+    border-radius: 3rem;
+   
   }
   
   .wrapper-text {
     backdrop-filter: blur(5px);
   }
 
+.inner-back {
+  position: absolute;
+    left: 0;
+    // width: 100%;
+    padding: 60px;
+    outline: 1px solid transparent;
+    -webkit-perspective: inherit;
+    perspective: inherit;
+    z-index: 2;
+    
+    transform: translateY(-50%) translateZ(60px) scale(.94);
+    -webkit-transform: translateY(-50%) translateZ(60px) scale(.94);
+    -ms-transform: translateY(-50%) translateZ(60px) scale(.94);
+    top: 40%;
+}
+a {
+  text-decoration: none;
+}

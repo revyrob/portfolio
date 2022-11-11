@@ -16,6 +16,20 @@ import { Link } from 'react-router-dom';
 import './Nav.scss';
 
 const pages = ['About', 'Projects', 'Videos'];
+const routes = [
+  {
+    name: 'home',
+    path: '/',
+  },
+  {
+    name: 'About',
+    path: '/about',
+  },
+  {
+    name: 'Projects',
+    path: '/projects',
+  }
+];
 //const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Nav() {
@@ -38,7 +52,9 @@ function Nav() {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
+         
           <Laptop sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+          <Link to='/'>
           <Typography
             variant="h6"
             noWrap
@@ -56,6 +72,7 @@ function Nav() {
           >
             KR
           </Typography>
+          </Link>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
@@ -86,10 +103,10 @@ function Nav() {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Link to={page}>
-                  <Typography textAlign="center">{page}</Typography>
+              {routes.map((route) => (
+                <MenuItem key={route.name} onClick={handleCloseNavMenu}>
+                  <Link to={route.path}>
+                  <Typography textAlign="center">{route.name}</Typography>
                   </Link>
                 </MenuItem>
               ))}
@@ -115,14 +132,14 @@ function Nav() {
             KR
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex'}, style: {textDecoration:'none'} }}>
-            {pages.map((page) => (
-              <Link to={page}>
+            {routes.map((route) => (
+              <Link key={route.name} to={route.path}>
               <Button
-                key={page}
+                
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                {page}
+               {route.name}
               </Button>
               </Link>
             ))}

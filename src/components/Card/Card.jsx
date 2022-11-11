@@ -1,7 +1,8 @@
 import "./Card.scss";
 import { v4 as uuidv4 } from "uuid";
 
-function Card({ title, description, image, toolSkill }) {
+function Card({ title, description, image, toolSkill, code}) {
+  
   return (
     <div className="box-item">
       <div className="flip-box">
@@ -24,14 +25,24 @@ function Card({ title, description, image, toolSkill }) {
           </div>
         </div>
         <div className="flip-box-back text-center">
-          <div className="inner color-white">
+          <div className="inner back color-white">
             <div className="wrapper-text">
             <h3 className="flip-box-header">{title}</h3>
             <p>{description}</p>
-
-            <button className="flip-box-button">Learn More</button>
+            <h2 className="flip-box-header--sub">Tools</h2>
+            <ul className="flip-box-list">
+              {toolSkill && toolSkill.map((tool)=> (
+                <li key={(uuidv4())}>{(tool)}</li>
+              ))}
+            </ul>
+           
+         
             </div>
+            
           </div>
+          <a className="flip-box-button" href={code} target="blank">
+                Code
+              </a>
         </div>
       </div>
     </div>
