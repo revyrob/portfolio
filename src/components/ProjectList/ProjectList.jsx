@@ -5,7 +5,7 @@ function ProjectList({projects}) {
     //map through projects for each card
     return (
         <section className="projectList">
-            {projects.map((project)=> (
+            {projects && projects.map((project)=> (
             <Card
                 key={project.id}
                 id={project.id}

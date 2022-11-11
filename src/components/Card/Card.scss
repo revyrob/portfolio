@@ -1,4 +1,8 @@
+@use '../../styles/variables' as *;
+
 .box-item {
+  
+  color:$color-accent;
     position: relative;
     -webkit-backface-visibility: hidden;
     width: 370px;
@@ -30,7 +34,7 @@
   }
   
   .flip-box-front {
-    background-color: white;
+    background-color: $color-accent;
     -ms-transform: rotateY(0deg);
     -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
@@ -50,7 +54,7 @@
   }
   
   .flip-box-back {
-    background-color: rgb(131, 130, 131);
+    background-color: $color-dark2-sec;
     position: absolute;
     top: 0;
     left: 0;
@@ -108,8 +112,8 @@
   
   .flip-box-button {
     background-color: transparent;
-    // border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid #fff;
+    color: $color-accent;
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
@@ -119,6 +123,10 @@
     bottom: 0;
     right: 0;
     border-radius: 3rem;
+    &:hover {
+      border: 2px solid $color-accent;
+      padding: 24px 29px;
+    }
    
   }
   
