@@ -3,10 +3,8 @@
 .about {
     display: flex;
     width: 100%;
-    margin: 1rem;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 10%;
     @include tablet {
         flex-direction: row;
     }
@@ -20,6 +18,8 @@
         }
     }
     &__info {
+        padding-top: 10%;
+
         width: 100%;
         display:flex;
         flex-direction: column;
@@ -31,10 +31,13 @@
         }
     }
     &__more {
+        padding-top: 10%;
+
         display:flex;
         flex-direction: column;
         width: 100%;
         align-items: center;
+        border-left: 1px solid rgb(189, 188, 188);
         @include tablet {
             width: 40%;
         }
@@ -47,8 +50,8 @@
     &__imgSelf {
         width: 75%;
         border-radius: 3rem;
-        transform-origin: center;
-        transform: rotate(7deg);
+        background-color: black;
+
         margin-bottom: 2.5rem;
         margin-top: 1.5rem;
         @include tablet {
