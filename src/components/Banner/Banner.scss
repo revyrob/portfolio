@@ -1,7 +1,6 @@
 @use '../../styles/mixins' as *;
-// body {
-//     background-color: black;
-// }
+@use '../../styles/variables' as *;
+
 .banner {
     position: relative;
     background-color: black;
@@ -31,7 +30,7 @@
         // padding: 5rem 10rem;
         text-align: right;
         justify-content: center;
-        color: black;
+        color: $color-dark;
         position: absolute;
         top: 80vh;
         right: 10vw;

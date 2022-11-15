@@ -1,11 +1,12 @@
 import About from "../components/About/About";
-import NavBar from "../components/Navbar/NavBar";
+import BottomNav from "../components/BottomNav/BottomNav";
 
 function AboutPage() {
     return(
         <>
-        <NavBar />
+        
         <About />
+       
         </>
     );
 }
