@@ -1,10 +1,12 @@
 @use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
+
 
 .about {
     display: flex;
     width: 100%;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     @include tablet {
         flex-direction: row;
     }
@@ -19,15 +21,16 @@
     }
     &__info {
         padding-top: 10%;
-
+        background-color: $color-dark-sec;
+        color: $color-light-sec;
         width: 100%;
         display:flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 3rem;
-        margin-left:2rem;
+        padding-top: 3rem;
+        padding-left:2rem;
         @include tablet {
-            width: 50%;
+            width: 60%;
         }
     }
     &__more {
