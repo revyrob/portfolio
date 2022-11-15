@@ -16,9 +16,7 @@ function ProjectList({projects}) {
                 code={project.code}
                 />
             ))}
-        <Card />
-        <Card />
-        <Card />
+     
         </section>
     );
 }
