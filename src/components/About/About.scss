@@ -14,9 +14,10 @@
         font-size: 2rem;
         width: 75%;
         margin-bottom: 2rem;
-        line-height: 4rem;
+        line-height: 3rem;
         @include tablet {
             font-size: 3rem;
+            line-height: 4rem;
         }
     }
     &__info {
@@ -28,9 +29,10 @@
         flex-direction: column;
         align-items: center;
         padding-top: 3rem;
-        padding-left:2rem;
+        
         @include tablet {
             width: 60%;
+            padding-left:2rem;
         }
     }
     &__more {
