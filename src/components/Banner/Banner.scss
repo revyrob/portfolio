@@ -26,16 +26,17 @@
         }
     }
     &__about {
-        // background-color: black;
-        // padding: 5rem 10rem;
         text-align: right;
         justify-content: center;
         color: $color-dark;
         position: absolute;
         top: 80vh;
         right: 10vw;
-        font-size: 1.75rem;
+        font-size: 1rem;
         width: 60%;
         font-weight: 700;
+        @include tablet{
+            font-size: 1.75rem;
+        }
     }
 }
