@@ -5,6 +5,11 @@ function ProjectList({projects}) {
     //map through projects for each card
     return (
         <section className="projectList">
+            <h1 className="projectList__title">
+                Projects
+            </h1>
+            <div className="projectList__projects">
+            
             {projects && projects.map((project)=> (
             <Card
                 key={project.id}
@@ -16,7 +21,13 @@ function ProjectList({projects}) {
                 code={project.code}
                 />
             ))}
-     
+            </div>
+            <h1 className="projectList__title">
+                Hackathons Completed
+            </h1>
+            <div className="projectList__projects">
+            
+            </div>
         </section>
     );
 }
