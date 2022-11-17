@@ -3,22 +3,30 @@
 
 
 .topNav{
-    // border: 2px solid $color-light;
     background-color: black;
     padding: 7px 10px;
-    // position: fixed;
     margin: 1rem auto;
     display: flex;
     justify-content: center;
+    max-width: 320px;
+    @include desktop {
+        max-width: 400px;
+    }
     &__link {
         display: flex;
         flex-direction: column;
         align-items: center;
-        // height: 4rem;
     }
     &__logo {
-        height: 2.25rem;
-        margin: 0 4rem;
+        height: 1.25rem;
+        margin: 0 2rem;
+        @include tablet{
+            height: 1.5rem;
+        }
+        @include desktop{
+            height: 2.25rem;
+            margin: 0 4rem;
+        }
     }
     &__p{
         margin: .25rem 0;
