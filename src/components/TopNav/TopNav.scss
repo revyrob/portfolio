@@ -2,20 +2,14 @@
 @use '../../styles/variables' as *;
 
 
-.bottomNav{
+.topNav{
     // border: 2px solid $color-light;
     background-color: black;
     padding: 7px 10px;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translate(-50%, 0);
-    margin: 0 auto;
+    // position: fixed;
+    margin: 1rem auto;
     display: flex;
-    margin-bottom: 1rem;
-   @include tablet {
-
-   }
+    justify-content: center;
     &__link {
         display: flex;
         flex-direction: column;
@@ -23,15 +17,8 @@
         // height: 4rem;
     }
     &__logo {
-        height: 1.25rem;
-        margin: 0 2rem;
-        @include tablet{
-            height: 1.5rem;
-        }
-        @include desktop{
-            height: 2.25rem;
-            margin: 0 4rem;
-        }
+        height: 2.25rem;
+        margin: 0 4rem;
     }
     &__p{
         margin: .25rem 0;

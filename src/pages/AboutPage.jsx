@@ -1,10 +1,10 @@
 import About from "../components/About/About";
-import BottomNav from "../components/BottomNav/BottomNav";
+import TopNav from "../components/TopNav/TopNav";
 
 function AboutPage() {
     return(
         <>
-        
+        <TopNav />
         <About />
        
         </>
