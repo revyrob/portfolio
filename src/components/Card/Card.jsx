@@ -23,8 +23,8 @@ function Card({ title, description, image, toolSkill, code }) {
           </div>
         </div>
         <div className="flip-box-back text-center">
-          <div className="inner back color-white">
-            <div className="wrapper-text">
+          <div className="inner-back color-white">
+            
               <h3 className="flip-box-header">{title}</h3>
               <p>{description}</p>
               <h2 className="flip-box-header--sub">Tools</h2>
@@ -32,14 +32,15 @@ function Card({ title, description, image, toolSkill, code }) {
                 {toolSkill &&
                   toolSkill.map((tool) => <li key={uuidv4()}>{tool}</li>)}
               </ul>
-            </div>
-          </div>
-          <a className="flip-box-button" href={code} target="blank">
+              <a className="flip-box-button" href={code} target="blank">
             Code
           </a>
+          </div>
+        
         </div>
       </div>
     </div>
+   
   );
 }
 

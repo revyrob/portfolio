@@ -1,15 +1,19 @@
 @use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
 
 .box-item {
-  
   color:$color-accent;
     position: relative;
     -webkit-backface-visibility: hidden;
-    width: 370px;
+    width: 320px;
     margin-bottom: 35px;
     max-width: 100%;
     margin:2rem;
-    
+    padding-bottom:1rem;
+    @include tablet {
+      width: 370px;
+    }
   }
   
   .flip-box {
@@ -80,7 +84,6 @@
   .flip-box .inner {
     position: absolute;
     left: 0;
-    // width: 100%;
     padding: 60px;
     outline: 1px solid transparent;
     -webkit-perspective: inherit;
@@ -95,6 +98,7 @@
   
   .flip-box-header {
     font-size: 24px;
+    padding-top:1.5rem;
     &--sub {
       font-size: 22px;
     }
@@ -106,8 +110,11 @@
   }
   
   .flip-box-img {
+    margin-left: 50px;
+    @include tablet{
     margin-top: 25px;
     margin-left: 100px;
+    }
   }
   
   .flip-box-button {
@@ -115,18 +122,25 @@
     border: 2px solid #fff;
     color: $color-accent;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 0.75rem;    
     font-weight: bold;
     position: absolute;
-    padding: 20px 25px;
+    padding: 1rem 1.25rem;
+    margin: .35rem;
+    margin-left:.45rem;
     text-transform: uppercase;
     bottom: 0;
     right: 0;
     border-radius: 3rem;
-    &:hover {
-      border: 2px solid $color-accent;
-      padding: 24px 29px;
+    @include tablet {
+      padding: 1rem 1.25rem;
+      font-size: 1rem;
+      padding: 1.25rem 1.5625rem;
     }
+    // &:hover {
+    //   border: 2px solid $color-accent;
+    //   padding: 24px 29px;
+    // }
    
   }
   
@@ -137,8 +151,7 @@
 .inner-back {
   position: absolute;
     left: 0;
-    // width: 100%;
-    padding: 60px;
+    padding: 3.75rem;
     outline: 1px solid transparent;
     -webkit-perspective: inherit;
     perspective: inherit;
