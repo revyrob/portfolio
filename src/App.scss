@@ -1,3 +1,4 @@
+@use "./styles/variables" as *;
 
 .App {
   text-align: center;
@@ -41,4 +42,8 @@
 
 .buttonfirst{
   z-index:10;
+}
+
+body {
+  background-color: $color-light-sec;
 }
