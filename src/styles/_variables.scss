@@ -1,7 +1,9 @@
-
+@use './fonts' as *;
 // fonts
 // $font-primary: 'AvenirNext LT Pro';
 // primary colors
+$primary-font: Helvetica, sans-serif;
+$secondary-font: 'MATRIX';
 $color-dark: #323232;
 $color-dark2: #20a320;
 $color-light:#AFAFAF;

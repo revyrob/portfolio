@@ -10,7 +10,7 @@ function About() {
         <>
         <section className="about">
         <div className='about__info'>
-        <h1 className='about__title'>I'm Kayle Robson.  I am fervid about coding and hackathons!</h1>
+        <h1 className='about__title'>I'm <span className="about__title--change">Kayle Robson</span>.  I am fervid about coding and hackathons!</h1>
         
         <p className='about__p'>I am a team player and I love working with people and making the best possible 
         outcome for a project.  I have participated in 2 worldwide and three within 
