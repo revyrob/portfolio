@@ -1,5 +1,4 @@
 import Banner from "../components/Banner/Banner";
-import NavBar from "../components/Navbar/NavBar";
 import '../App.scss';
 import BottomNav from "../components/BottomNav/BottomNav";
 

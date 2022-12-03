@@ -1,0 +1,42 @@
+{
+    "Hackathons": [
+        {
+            "id": "7c5429bd-8e07-4380-aab3-e57f891b480a",
+            "name": "Telus Hackathon",
+            "description": "Hackathon Winning Team, streamline Telus streaming packages ",
+            "image": "/images/telus.png",
+            "toolSkill": [
+                "React",
+                "Sass",
+                "Framer Motion"
+            ],
+            "code": "https://github.com/revyrob/telus-digital-hackathon"
+        },
+        {
+            "id": "42308591-15f7-447c-b64e-061ba4a94c21",
+            "name": "Pokemon Weather App",
+            "description": "Geolocator with weather, mocktail, and pokemon to find",
+            "image": "/images/pokemon.png",
+            "toolSkill": [
+                "React",
+                "RESTful APIs",
+                "Agile Methodology",
+                "Sass"
+            ],
+            "code": "https://github.com/revyrob/pokemon-weather-app-frontend"
+        },
+        {
+            "id": "7c5429bd-8e07-4380-aab3-e57f541b498a",
+            "name": "Eureka",
+            "description": "Frontend for mental health application",
+            "image": "/images/euruka.png",
+            "toolSkill": [
+                "Heroku",
+                "EJS",
+                "Javascript",
+                "CSS"
+            ],
+            "code": "https://github.com/revyrob/Eureka"
+        }
+    ]
+}

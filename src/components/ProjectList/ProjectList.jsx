@@ -2,15 +2,17 @@ import Card from "../Card/Card";
 import './ProjectList.scss';
 
 function ProjectList({projects}) {
+    //get the values from the object
+   let array = Object.values(projects);
     //map through projects for each card
     return (
         <section className="projectList">
             <h1 className="projectList__title">
-                Projects
+                {Object.keys(projects)}
             </h1>
             <div className="projectList__projects">
-            
-            {projects && projects.map((project)=> (
+         
+            {array[0] && array[0].map((project)=> (
             <Card
                 key={project.id}
                 id={project.id}
@@ -20,14 +22,14 @@ function ProjectList({projects}) {
                 toolSkill={project.toolSkill}
                 code={project.code}
                 />
-            ))}
+            ))} 
             </div>
-            <h1 className="projectList__title">
+            {/* <h1 className="projectList__title">
                 Hackathons Completed
             </h1>
             <div className="projectList__projects">
             
-            </div>
+            </div> */}
         </section>
     );
 }
