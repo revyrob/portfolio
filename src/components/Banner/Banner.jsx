@@ -13,9 +13,9 @@ function Banner() {
                 <Typed
                 strings={[
                     "Hello World",
-                    "I am a FullStack Developer",
                     "I sparkle during Hackathons",
                     "I am fervid about coding",
+                    "I am a FullStack Developer",
                     "I debug code like a jed",
                     "I debug code like a mast",
                     "I debug code like a junior developer!",
