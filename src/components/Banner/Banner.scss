@@ -36,7 +36,7 @@
         width: 60%;
         font-weight: 700;
         @include tablet{
-            top: 85vh;
+            // top: 85vh;
             font-size: 1.75rem;
         }
         @include desktop{
