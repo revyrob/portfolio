@@ -117,7 +117,7 @@
     }
   }
   
-  .flip-box-button {
+  .flip-box-button1 {
     background-color: transparent;
     border: 2px solid #fff;
     color: $color-accent;
@@ -130,13 +130,51 @@
     margin-left:.45rem;
     text-transform: uppercase;
     bottom: -10;
-    right: 35%;
+    right: 10%;
+    &:hover {
+      border:none;
+      color:transparent;
+      background-image: url("../../assets/icons/github.svg");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      
+    }
     @include tablet {
       padding: 1rem 1.25rem;
       font-size: 1rem;
       padding: 1.25rem 1.5625rem;
     }
-   
+  }
+    .flip-box-button2 {
+      background-color: transparent;
+      border: 2px solid #fff;
+      color: $color-accent;
+      cursor: pointer;
+      font-size: 0.75rem;    
+      font-weight: bold;
+      position: absolute;
+      padding: 1rem 1.25rem;
+      margin: .35rem;
+      margin-left:.45rem;
+      text-transform: uppercase;
+      bottom: -10;
+      right: 60%;
+      &:hover {
+        border:none;
+        color:transparent;
+        background-image: url("../../assets/icons/eye-icon.svg");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+      }
+      @include tablet {
+        padding: 1rem 1.25rem;
+        font-size: 1rem;
+        padding: 1.25rem 1.5625rem;
+        transition: .2s;
+      }
   }
   
   .wrapper-text {

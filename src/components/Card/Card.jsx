@@ -32,8 +32,11 @@ function Card({ title, description, image, toolSkill, code }) {
                 {toolSkill &&
                   toolSkill.map((tool) => <li key={uuidv4()}>{tool}</li>)}
               </ul>
-              <a className="flip-box-button" href={code} target="blank">
+              <a className="flip-box-button1" href={code} target="blank">
             Code
+          </a>
+          <a className="flip-box-button2" href={code} target="blank">
+            View
           </a>
           </div>
         

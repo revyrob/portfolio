@@ -1,6 +1,6 @@
 import './About.scss';
 import kayle from '../../assets/images/kayle.png';
-import github from '../../assets/icons/github.jpg';
+import github from '../../assets/icons/github.svg';
 import linkedIn from '../../assets/icons/icon-linkedin.png';
 import instagram from '../../assets/icons/icon-instagram.png';
 
