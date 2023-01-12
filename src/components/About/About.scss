@@ -75,16 +75,25 @@
     &__social {
         border-bottom: 1px solid rgb(189, 188, 188);
         padding-bottom: 3rem;
+       
+
         &--icon {
             width: 2rem;
             height: 2rem;
             margin-right: 1rem;
+            &:hover {
+                width: 2.35rem;
+                height: 2.35rem;
+                transition: .3s;
+
+            }
         }
         &--p{
             margin:0;
         }
     }
-    &__socialListItem {
+    &__socialListItem { display: flex;
+        align-items: center;
         width: 100%;
         display: flex;
         margin: 1.5rem 0;

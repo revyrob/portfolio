@@ -30,15 +30,19 @@ function About() {
         <div className='about__more'>
         <img className='about__imgSelf' src={kayle} alt='kayle robson portrait'/>
         <div className='about__social'>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/revyrob">
             <div className='about__socialListItem'>
             <img className='about__social--icon' src={github} alt='github icon' /><p className='about__social--p'>Follow on Github</p>
-            </div>
+            </div></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kayle-robson/">
             <div className='about__socialListItem'>
             <img className='about__social--icon' src={linkedIn} alt='linkedIn icon' /><p className='about__social--p'>Follow on LinkedIn</p>
-            </div>            
+            </div></a>     
+            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/klee.robby/">
             <div className='about__socialListItem'>
             <img className='about__social--icon' src={instagram} alt='instagram icon' /><p className='about__social--p'>Follow on Instagram</p>
-            </div>        
+            </div>   
+            </a>          
         </div>
         </div>
         
