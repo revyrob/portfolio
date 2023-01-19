@@ -21,15 +21,11 @@ function ProjectList({projects}) {
                 image={project.image}
                 toolSkill={project.toolSkill}
                 code={project.code}
+                view={project.view}
                 />
             ))} 
             </div>
-            {/* <h1 className="projectList__title">
-                Hackathons Completed
-            </h1>
-            <div className="projectList__projects">
-            
-            </div> */}
+           
         </section>
     );
 }

@@ -12,7 +12,8 @@
                 "Framer Motion",
                 "Formik"
             ],
-            "code": "https://github.com/revyrob/operation-mother-earth-client"
+            "code": "https://github.com/revyrob/operation-mother-earth-client",
+            "view": "https://operation-mother-earth.netlify.app/"
         },
         {
             "id": "7c5429bd-8e07-4380-aab3-e57f541b480a",
@@ -25,7 +26,8 @@
                 "Javascript",
                 "Bootstrap"
             ],
-            "code": "https://brianconfantomes.com/"
+            "code": "https://brianconfantomes.com/",
+            "view": "https://brianconfantomes.com/"
         },
         {
             "id": "cf44c818-6f47-4059-ba8c-8987e660cda4",
@@ -38,7 +40,8 @@
                 "Javascript",
                 "Bootstrap"
             ],
-            "code": "https://github.com/revyrob/bikeBriancon"
+            "code": "https://github.com/revyrob/bikeBriancon",
+            "view": "https://bikebriancon.fr/"
         },
         {
             "id": "01880db0-6dc3-400f-bcb2-5d26b6715384",
@@ -51,7 +54,8 @@
                 "Javascript",
                 "QGIS"
             ],
-            "code": "https://github.com/revyrob/bikeBrianconV1"
+            "code": "https://github.com/revyrob/bikeBrianconV1",
+            "view": ""
         }
     ]
 }

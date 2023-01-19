@@ -3,9 +3,12 @@ import kayle from '../../assets/images/kayle.png';
 import github from '../../assets/icons/github.svg';
 import linkedIn from '../../assets/icons/icon-linkedin.png';
 import instagram from '../../assets/icons/icon-instagram.png';
-
+import { useRef } from "react";
+import { useInView } from "framer-motion";
 
 function About() {
+    const ref = useRef(null);
+    const isInView = useInView(ref, { once: true });
     return (
         <>
         <section className="about">
@@ -28,21 +31,27 @@ function About() {
         the learning experience of students.</p>
         </div>
         <div className='about__more'>
-        <img className='about__imgSelf' src={kayle} alt='kayle robson portrait'/>
+        <div ref={ref}>
+        <img className='about__imgSelf'  style={{
+            transform: isInView ? "none" : "translateX(-200px)",
+            opacity: isInView ? 1 : 0,
+            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+        }} src={kayle} alt='kayle robson portrait'/>
+        </div>
         <div className='about__social'>
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/revyrob">
-            <div className='about__socialListItem'>
-            <img className='about__social--icon' src={github} alt='github icon' /><p className='about__social--p'>Follow on Github</p>
-            </div></a>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kayle-robson/">
-            <div className='about__socialListItem'>
-            <img className='about__social--icon' src={linkedIn} alt='linkedIn icon' /><p className='about__social--p'>Follow on LinkedIn</p>
-            </div></a>     
-            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/klee.robby/">
-            <div className='about__socialListItem'>
-            <img className='about__social--icon' src={instagram} alt='instagram icon' /><p className='about__social--p'>Follow on Instagram</p>
-            </div>   
-            </a>          
+        <div className='about__socialListItem'>
+        <img className='about__social--icon' src={github} alt='github icon' /><p className='about__social--p'>Follow on Github</p>
+        </div></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kayle-robson/">
+        <div className='about__socialListItem'>
+        <img className='about__social--icon' src={linkedIn} alt='linkedIn icon' /><p className='about__social--p'>Follow on LinkedIn</p>
+        </div></a>     
+        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/klee.robby/">
+        <div className='about__socialListItem'>
+        <img className='about__social--icon' src={instagram} alt='instagram icon' /><p className='about__social--p'>Follow on Instagram</p>
+        </div>   
+        </a>          
         </div>
         </div>
         
