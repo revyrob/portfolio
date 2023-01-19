@@ -2,6 +2,7 @@ import "./Card.scss";
 import { v4 as uuidv4 } from "uuid";
 
 function Card({ title, description, image, toolSkill, code, view }) {
+  console.log(view)
   return (
     <div className="box-item">
       <div className="flip-box">
@@ -35,7 +36,8 @@ function Card({ title, description, image, toolSkill, code, view }) {
               <a className="flip-box-button1" href={code} target="blank">
             Code
           </a>
-          <a className={`${view === undefined} ? 'none': 'flip-box-button2'`} href={view} target="blank">
+          
+          <a  href={view} className={`${view === "" ? 'none': 'flip-box-button2'}`}target="blank">
             View
           </a>
           </div>

@@ -1,5 +1,4 @@
 import "./ProjectCard.scss";
-import kayle from "../../assets/images/kayle.jpg";
 
 function ProjectCard() {
   return (

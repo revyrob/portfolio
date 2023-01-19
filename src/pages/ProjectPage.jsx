@@ -8,6 +8,8 @@ function ProjectPage() {
   //create a state with project data
   const [projects] = useState(ProjectData);
   const [hackProjects] = useState(HackData);
+  console.log(projects)
+  console.log(hackProjects)
 
   return (
     <>
