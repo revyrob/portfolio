@@ -5,7 +5,7 @@ import info from "../../assets/icons/info-icon.png";
 import project from "../../assets/icons/project-icon.png";
 import React, { useEffect, useState } from 'react';
 // Import useLocation hook
-import { Link, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 function TopNav() {
   const location = useLocation(); // once ready it returns the 'window.location' object
