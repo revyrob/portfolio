@@ -10,13 +10,16 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    
     }
     &__title{
         font-family: $secondary-font;
-        font-size: 1.75rem;
+        font-size: 2rem;
         margin-left: 10%;
+        
         @include tablet {
             font-size: 2.5rem;
+            margin-top: 7rem;
         }
  
      
