@@ -4,7 +4,7 @@
             "id": "3f6dsfdsf0-f025-23432-8698-00cfd44974ba",
             "name": "Briancon Fantomes V2",
             "description": "Revamping the older V1 Braincon Fantomes with React, Framer-motion, and Tailwind",
-            "image": "/images/operation-mother-earth.png",
+            "image": "/images/BfV2.png",
             "toolSkill": [
                 "React",
                 "Framer Motion",
@@ -18,7 +18,7 @@
             "id": "3f6d5660-f025-4892-1111-00cfd44974ba",
             "name": "Sept Sommet Blog",
             "description": "Testing out NextJS, Tailwind, and Sanity backend to create a simple blog for school communication",
-            "image": "/images/operation-mother-earth.png",
+            "image": "/images/septSommet.png",
             "toolSkill": [
                 "NextJS",
                 "Tailwind",

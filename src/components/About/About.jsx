@@ -7,6 +7,7 @@ import { useRef } from "react";
 import { useInView } from "framer-motion";
 
 function About() {
+    //useRef and useInView for the photo of myself moving into the screen when 'inview'
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true });
     return (
@@ -15,30 +16,29 @@ function About() {
         <div className='about__info'>
         <h1 className='about__title'>I'm <span className="about__title--change">Kayle Robson</span>.  I am fervid about coding and hackathons!</h1>
         
-        <p className='about__p'>I am a team player and I love working with people and making the best possible 
-        outcome for a project.  I have participated in 2 worldwide hackathons and three within 
-        the Brainstation Web Development bootcamp.   The 2 international hackathons required creating a viable idea within specific time 
-        constraints; my teams completed this successfully, overcoming barriers related to language and time zone differences.   
-        The graphic designer I worked with in the Belarus hackathon joined my team in the India Hackathon and also I used her 
-        graphics in my final bootcamp project.  </p>
-        <p className='about__p'>The three hackathons at Brainstation all came with their own challenges.  The API 
-        hackathons brought the excitement of learning about APIs, using Git, Agile methodology, and designing a full stack web 
-        application within 5 hours!  The industry hackathon with Telus Digital, which we won, was a paired hackathon with the UI/UX Designers.   
-        We created reusable code for the components and the application was built with the idea of connecting it to a backend.</p>   
-        <p className='about__p'>I am currently working at Brainstation as a Teaching Assistant for the current Web Development cohort, October to December 2022.  I mentor 
-        and help teach 36 students and provide feedback to students to ensure they comprehend the material, can apply it to real world 
-        coding problems, and follow best practices in the Web Development industry.  I plan and deliver supplementary content to enrich 
-        the learning experience of students.</p>
+        <p className='about__p'> I am a dynamic developer and started self-learning web development 3 years ago. In the last year and a half, I finished my first year of a Computing Science degree at Thompson River University, completed a Web Development Bootcamp with Brainstation, and was hired as a Teaching Assistant for the Web Development Bootcamp at Brainstation.  I would love the chance to work for Cronometer as a Software Developer.
+        </p>
+        <p className='about__p'>I am fervid about Hackathons and I have participated in two worldwide and three within my Brainstation Bootcamp.  The industry hackathon with Telus Digital (which we won!!)  was paired with the UI/UX Designers at Brainstation.  We used Agile methodologies, created reusable code for the components, and the frontend was built to connect to a backend.   During my time as a teaching assistant for the Web Development program with Brainstation, I mentored and helped teach 36 students, marked assignments, provided one-on-one mentorship, and participated in weekly stand-ups with the Education Team.
+        </p>   
+        <p className='about__p'>Before entering tech I worked within the hospitality industry for 4 years in France.  Within hospitality you need to know how to be efficient, organized, and push through the rush with your team.  Before I went to France I was a bookkeeper for 5  years, handling accounts receivables, payables, payroll, and year-end.  I self-learned this role and had no formal certification.  I did reach out to accountants, asking many questions, researching, and even making myself a guide to remember how to do specific tasks which were more complicated and only done quarterly or annually.  </p>
         </div>
+        
         <div className='about__more'>
-        <div ref={ref}>
-        <img className='about__imgSelf'  style={{
+        
+        <div className="about__img" ref={ref}>
+        <img className='about__img--self'  style={{
             transform: isInView ? "none" : "translateX(-200px)",
             opacity: isInView ? 1 : 0,
             transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
         }} src={kayle} alt='kayle robson portrait'/>
         </div>
-        <div className='about__social'>
+        
+        <div className='about__social' ref={ref}>
+        <div style={{
+            transform: isInView ? "none" : "translateX(-200px)",
+            opacity: isInView ? 1 : 0,
+            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.75s"
+        }}>
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/revyrob">
         <div className='about__socialListItem'>
         <img className='about__social--icon' src={github} alt='github icon' /><p className='about__social--p'>Follow on Github</p>
@@ -54,7 +54,7 @@ function About() {
         </a>          
         </div>
         </div>
-        
+        </div>
         </section>
         </>
         );
