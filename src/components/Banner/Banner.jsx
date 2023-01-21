@@ -1,16 +1,17 @@
 import { ReactP5Wrapper } from "react-p5-wrapper";
-import Typed from 'react-typed';
+import Typed from 'typed.js';
 import sketch from "../../sketch";
 import './Banner.scss';
 
 function Banner() {
+    
     return(
         <section className="banner">
             <div className="banner__sketch">
                 <ReactP5Wrapper sketch={sketch} />
             </div>
             <div className="banner__about">
-                <Typed
+                {/* <Typed
                 strings={[
                     "Hello World",
                     "I sparkle during Hackathons",
@@ -24,7 +25,7 @@ function Banner() {
                 typeSpeed={150}
                 backSpeed={100}
                 loop
-                />
+                /> */}
             </div>
         </section>
         );
