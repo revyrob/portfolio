@@ -8,11 +8,13 @@ function LandingPage() {
     window.location.reload(); 
 });
   return (
+    
     <section className="landing">
-      
       <Banner />
       <BottomNav />
+     
     </section>
+   
   );
 }
 

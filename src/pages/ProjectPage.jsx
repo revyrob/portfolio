@@ -3,6 +3,7 @@ import ProjectList from "../components/ProjectList/ProjectList";
 import ProjectData from "../data/projects.json";
 import TopNav from "../components/TopNav/TopNav";
 import HackData from "../data/hackProjects.json";
+import Footer from "../components/Footer/Footer";
 
 function ProjectPage() {
   //create a state with project data
@@ -10,15 +11,16 @@ function ProjectPage() {
   const [hackProjects] = useState(HackData);
   console.log(projects)
   console.log(hackProjects)
-
+  
   return (
     <>
-     <TopNav />
-      <ProjectList projects={projects} />
-      <ProjectList projects={hackProjects} />
-
+    <TopNav />
+    <ProjectList projects={projects} />
+    <ProjectList projects={hackProjects} />
+    <Footer/>
     </>
-  );
-}
-
-export default ProjectPage;
+    );
+  }
+  
+  export default ProjectPage;
+  

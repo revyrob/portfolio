@@ -3,6 +3,7 @@ import kayle from '../../assets/images/kayle.png';
 import github from '../../assets/icons/github.svg';
 import linkedIn from '../../assets/icons/icon-linkedin.png';
 import instagram from '../../assets/icons/icon-instagram.png';
+import mail from '../../assets/icons/mail-icon.svg';
 import { useRef } from "react";
 import { useInView } from "framer-motion";
 
@@ -51,6 +52,10 @@ function About() {
             opacity: isInView ? 1 : 0,
             transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.75s"
         }}>
+            <a target="_blank" rel="noopener noreferrer" a href="mailto:kayle.robson@gmail.com">
+        <div className='about__socialListItem'>
+        <img className='about__social--icon' src={mail} alt='mail icon' /><p className='about__social--p'>Email me</p>
+        </div></a>
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/revyrob">
         <div className='about__socialListItem'>
         <img className='about__social--icon' src={github} alt='github icon' /><p className='about__social--p'>Follow on Github</p>

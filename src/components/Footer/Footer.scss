@@ -1,0 +1,14 @@
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+.footer {
+    padding-bottom: 70px;
+    &__div{
+        display: flex;
+        justify-content: center;
+        &__p {
+            font-size: 1rem;
+        }
+    }
+
+}
