@@ -6,6 +6,9 @@ https://kayle-robson.netlify.app/
 
 ## 💻 Built with
 <li>React</li>
+<li>P5</li>
+<li>Type.js</li>
+<li>MUI</li>
 <li>Framer-motion</li>
 <li>React-router-dom</li>
 <li>react-dom</li>
