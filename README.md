@@ -3,7 +3,6 @@ Personnel portfolio, displaying my projects and a summary of myself.
 
 ## 🚀 Demo
 https://kayle-robson.netlify.app/
-Check it out <a href="https://kayle-robson.netlify.app/">here</a>
 
 ## 💻 Built with
 <li>React</li>
