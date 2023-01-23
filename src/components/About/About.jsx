@@ -17,8 +17,8 @@ function About() {
         <div className='about__info'>
         <h1 className='about__title'>I'm <span className="about__title--change">Kayle Robson</span>.  I am fervid about coding and hackathons!</h1>
         
-        <p className='about__p'>I am a dynamic developer and started self-learning web development 3 years ago. 
-        In the last year and a half I completed a Web Development Bootcamp with Brainstation, finished my first year of a Computing Science degree at Thompson River University, 
+        <p className='about__p'>I am a dynamic software developer and started self-learning web development 3 years ago. 
+        In the last year and a half, I completed a Web Development Bootcamp with Brainstation, finished my first year of a Computing Science degree at Thompson River University, 
          and was hired as a Teaching Assistant for the Web Development Bootcamp at Brainstation.  
         </p>
         <p className='about__p'>I am fervid about Hackathons and I have participated in two worldwide and three within my 
@@ -28,10 +28,9 @@ function About() {
         I mentored and helped teach 36 students, marked assignments, provided one-on-one mentorship, and participated in weekly 
         stand-ups with the Education Team.
         </p>   
-        <p className='about__p'>Before entering tech I worked within the hospitality industry for 4 years in France.  
-        Within hospitality I excelled in my ability to be efficient, organized, and meet time
-        sensitive deadlines.  Before working in France I was a bookkeeper, handling accounts receivables, payables, payroll, 
-        and year-end.  I self-learned this role while we ran our own business and then I later worked for a couple companies within
+        <p className='about__p'>Before entering tech I worked in the hospitality industry for 4 years in France.  
+        Within hospitality, I excelled in my ability to be efficient, organised, and meet time-sensitive deadlines.  Before working in France I was a bookkeeper, handling accounts receivables, payables, payroll, 
+        and year-end.  I self-learned this role while we ran our own business and then I later worked for a couple of companies within
         the same role.  While learning I had mentor bookkeepers and worked closely with the required accountants to meet their expectations
         for year-end. </p>
         </div>
