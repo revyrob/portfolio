@@ -2,7 +2,10 @@
 @use '../../styles/mixins' as *;
 
 .footer {
-    padding-bottom: 70px;
+    padding-bottom: 80px;
+    @include desktop {
+        padding-bottom: 10px;
+    }
     &__div{
         display: flex;
         justify-content: center;
