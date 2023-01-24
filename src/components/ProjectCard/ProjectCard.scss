@@ -58,8 +58,8 @@
     width: 100%;
     padding: 60px;
     outline: 1px solid transparent;
-    -webkit-perspective: inherit;
-    perspective: inherit;
+    //-webkit-perspective: inherit;
+    //perspective: inherit;
     //z-index: 2;
 
     transform: translateY(-50%) translateZ(60px) scale(0.94);
@@ -118,8 +118,8 @@
   width: 100%;
   padding: 60px;
   outline: 1px solid transparent;
-  -webkit-perspective: inherit;
-  perspective: inherit;
+  //-webkit-perspective: inherit;
+  //perspective: inherit;
   //z-index: 2;
 
   transform: translateY(-50%) translateZ(60px) scale(0.94);
