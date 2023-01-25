@@ -2,7 +2,6 @@ import "./Card.scss";
 import { v4 as uuidv4 } from "uuid";
 
 function Card({ title, description, image, toolSkill, code, view }) {
-  console.log(view)
   return (
     <div className="box-item">
       <div className="flip-box">
@@ -18,7 +17,7 @@ function Card({ title, description, image, toolSkill, code, view }) {
           <div className="flip-box-inner">
             <img
               src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png"
-              alt=""
+              alt="side arrow"
               className="flip-box-img"
             />
           </div>

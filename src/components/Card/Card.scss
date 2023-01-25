@@ -3,6 +3,19 @@
 
 
 .box-item {
+  margin:0rem;
+  color:$color-accent;
+  position: relative;
+  //-webkit-backface-visibility: hidden;
+  width: 320px;
+  margin-bottom: 35px;
+  max-width: 100%;
+  padding-bottom:.25rem;
+  @include tablet {
+    padding-bottom:1rem;
+    margin:2rem;
+    width: 370px;
+  }
   color:$color-accent;
   position: relative;
   //-webkit-backface-visibility: hidden;
@@ -23,57 +36,57 @@
   perspective: 1000px;
   -webkit-perspective: 1000px;
   
- &-front {
-  background-size: cover;
-  background-position: center;
-  border-radius: 3rem;
-  min-height: 475px;
-  -ms-transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
-  transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
-  -webkit-transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  background-color: $color-light-sec;
-  -ms-transform: rotateY(0deg);
-  -webkit-transform: rotateY(0deg);
-  transform: rotateY(0deg);
-  -webkit-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  
-} &-back{
-  background-size: cover;
-  background-position: center;
-  border-radius: 3rem;
-  min-height: 475px;
-  -ms-transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
-  transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
-  -webkit-transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  background-color: $color-dark2-sec;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  
-  -ms-transform: rotateY(180deg);
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
-  -webkit-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-}
+  &-front {
+    background-size: cover;
+    background-position: center;
+    border-radius: 3rem;
+    min-height: 475px;
+    -ms-transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
+    transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
+    -webkit-transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-color: $color-light-sec;
+    -ms-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    
+  } &-back{
+    background-size: cover;
+    background-position: center;
+    border-radius: 3rem;
+    min-height: 475px;
+    -ms-transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
+    transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
+    -webkit-transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-color: $color-dark2-sec;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    -ms-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    // -webkit-transform-style: preserve-3d;
+    // -ms-transform-style: preserve-3d;
+    // transform-style: preserve-3d;
+  }
 }
 
 //when you hover over it flip the box
 .flip-box:hover .flip-box-front {
   -ms-transform: rotateY(-180deg);
-    -webkit-transform: rotateY(-180deg);
-    transform: rotateY(-180deg);
-    -webkit-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    transform-style: preserve-3d;
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 //when you hover over the flip box back it rotates
@@ -95,8 +108,8 @@
   //perspective: inherit;
   //z-index: 2;
   transform: translateY(-50%) translateZ(60px) scale(.94);
-  -webkit-transform: translateY(-50%) translateZ(60px) scale(.94);
-  -ms-transform: translateY(-50%) translateZ(60px) scale(.94);
+  //-webkit-transform: translateY(-50%) translateZ(60px) scale(.94);
+  //-ms-transform: translateY(-50%) translateZ(60px) scale(.94);
   top: 50%;
 }
 
@@ -193,10 +206,9 @@
   //-webkit-perspective: inherit;
   //perspective: inherit;
   //z-index: 2;
-  
   transform: translateY(-50%) translateZ(60px) scale(.94);
-  -webkit-transform: translateY(-50%) translateZ(60px) scale(.94);
-  -ms-transform: translateY(-50%) translateZ(60px) scale(.94);
+  //-webkit-transform: translateY(-50%) translateZ(60px) scale(.94);
+  //-ms-transform: translateY(-50%) translateZ(60px) scale(.94);
   top: 40%;
 }
 a {
