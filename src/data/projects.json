@@ -43,6 +43,21 @@
             "view": "https://operation-mother-earth.netlify.app/"
         },
         {
+            "id": "3f6d5660-f025-4892-1111-00cfd44974ba",
+            "name": "Brainflix",
+            "description": "Full-stack application which uses RESTful APIs.",
+            "image": "/images/Brainflix.png",
+            "toolSkill": [
+                "React",
+                "Node",
+                "Express",
+                "BEM",
+                "Sass"
+            ],
+            "code": "https://github.com/revyrob/brainflix-api",
+            "view": ""
+        },
+        {
             "id": "7c5429bd-8e07-4380-aab3-e57f541b480a",
             "name": "Briancon Fantomes",
             "description": "Audio tour website for the medieval town of Briancon.",
