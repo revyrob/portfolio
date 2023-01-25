@@ -7,7 +7,7 @@ function Card({ title, description, image, toolSkill, code, view }) {
     <div className="box-item">
       <div className="flip-box">
         <div
-          className="flip-box-front text-center"
+          className="flip-box-front"
           style={{
             backgroundImage: `url(${image})`,
             backgroundSize: "contain",
@@ -15,7 +15,7 @@ function Card({ title, description, image, toolSkill, code, view }) {
             backgroundPosition: "center",
           }}
         >
-          <div className="inner color-white">
+          <div className="flip-box-inner">
             <img
               src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png"
               alt=""
@@ -23,11 +23,11 @@ function Card({ title, description, image, toolSkill, code, view }) {
             />
           </div>
         </div>
-        <div className="flip-box-back text-center">
-          <div className="inner-back color-white">
+        <div className="flip-box-back ">
+          <div className="flip-box-inner-back ">
             
               <h3 className="flip-box-header">{title}</h3>
-              <p>{description}</p>
+              <p className="flip-box-p">{description}</p>
               <h2 className="flip-box-header--sub">Tools</h2>
               <ul className="flip-box-list">
                 {toolSkill &&
