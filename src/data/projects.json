@@ -58,6 +58,28 @@
             "view": ""
         },
         {
+            "id": "3f6d5660-4444-4892-1111-00cf234974ba",
+            "name": "Product Sorter",
+            "description": "Python application which sorts product codes from a text file.  Once the codes are validated they are written on a text file.",
+            "image": "/images/valid_code.png",
+            "toolSkill": [
+                "Python"
+            ],
+            "code": "https://github.com/revyrob/productSort",
+            "view": ""
+        },
+        {
+            "id": "3f6d5660-4444-4892-1111-00cfd44974ba",
+            "name": "UserName Creator",
+            "description": "Python application where a user enters required information and a UserName is created.",
+            "image": "/images/user-login.png",
+            "toolSkill": [
+                "Python"
+            ],
+            "code": "https://github.com/revyrob/UsernameCreator",
+            "view": ""
+        },
+        {
             "id": "7c5429bd-8e07-4380-aab3-e57f541b480a",
             "name": "Briancon Fantomes",
             "description": "Audio tour website for the medieval town of Briancon.",
@@ -68,7 +90,7 @@
                 "Javascript",
                 "Bootstrap"
             ],
-            "code": "https://brianconfantomes.com/",
+            "code": "https://github.com/revyrob/brianconFantomes",
             "view": "https://brianconfantomes.com/"
         },
         {
