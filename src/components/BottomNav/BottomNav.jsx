@@ -29,18 +29,18 @@ function BottomNav() {
     //     <p className="bottomNav__p">Projects</p>
     //   </NavLink>
     // </section>
-    <section className="topNav">
-        <NavLink className="topNav__link" to="/">
-        <img src={home} className={"topNav__logo filter-white" + (url === "/" ?" activeBot" : "")} alt="Brainflix logo" />
-          <p className={"topNav__p " + (url === "/" ?" activep" : "")}>Home</p>
+    <section className="bottomNav">
+        <NavLink className="bottomNav__link" to="/">
+        <img src={home} className={"bottomNav__logo filter-white" + (url === "/" ?" activeBot" : "")} alt="Brainflix logo" />
+          <p className={"bottomNav__p " + (url === "/" ?" activep" : "")}>Home</p>
         </NavLink>
-        <NavLink className="topNav__link" to="/about">
-          <img src={info} className={"topNav__logo filter-white" + (url === "/about" ?" activeBot" : "")} alt="Brainflix logo" />
-          <p className={"topNav__p" + (url === "/about" ?" activep" : "")}>About</p>
+        <NavLink className="bottomNav__link" to="/about">
+          <img src={info} className={"bottomNav__logo filter-white" + (url === "/about" ?" activeBot" : "")} alt="Brainflix logo" />
+          <p className={"bottomNav__p" + (url === "/about" ?" activep" : "")}>About</p>
         </NavLink>
-        <NavLink className="topNav__link" to="/projects">
-          <img src={project} className={"topNav__logo filter-white" + (url === "/projects" ?" activeBot" : "")} alt="Brainflix logo" />
-          <p className={"topNav__p" + (url === "/projects" ?" activep" : "")}>Projects</p>
+        <NavLink className="bottomNav__link" to="/projects">
+          <img src={project} className={"bottomNav__logo filter-white" + (url === "/projects" ?" activeBot" : "")} alt="Brainflix logo" />
+          <p className={"bottomNav__p" + (url === "/projects" ?" activep" : "")}>Projects</p>
         </NavLink>
       </section>
   );
