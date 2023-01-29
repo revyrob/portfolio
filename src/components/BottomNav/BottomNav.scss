@@ -10,7 +10,7 @@
     //align-items: center;
     background-color: #4F4F4F;
     padding: 7px 10px;
-    position: absolute;
+    position: fixed;
     left: 50%;
     bottom: 0;
     transform: translate(-50%, 0);
@@ -24,7 +24,7 @@
     width: auto;
     background-color: #4F4F4F;
     padding: 7px 10px;
-    position: absolute;
+    //position: absolute;
     left: 50%;
     bottom: 0;
     transform: translate(-50%, 0);
