@@ -28,11 +28,11 @@ function About() {
         I mentored and helped teach 36 students, marked assignments, provided one-on-one mentorship, and participated in weekly 
         stand-ups with the Education Team.
         </p>   
-        <p className='about__p'>Before entering tech I worked in the hospitality industry for 4 years in France.  
-        Within hospitality, I excelled in my ability to be efficient, organised, and meet time-sensitive deadlines.  Before working in France I was a bookkeeper, handling accounts receivables, payables, payroll, 
-        and year-end.  I self-learned this role while we ran our own business and then I later worked for a couple of companies within
-        the same role.  While learning I had mentor bookkeepers and worked closely with the required accountants to meet their expectations
-        for year-end. </p>
+        <p className='about__p'>Before entering tech I worked in the hospitality industry for 4 years in France. 
+        Within hospitality, I excelled in my ability to be efficient, organized, and meet time-sensitive deadlines. 
+        Previous to working in France I was a bookkeeper, handling accounts receivables, payables, payroll, and year-end. 
+        I self-learned this role while I ran a business with my husband and later worked for a couple of companies within the 
+        same role. </p>
         </div>
         
         <div className='about__more'>
