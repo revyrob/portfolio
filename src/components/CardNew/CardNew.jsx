@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from "uuid";
 
 function CardNew({ title, description, image, toolSkill, code, view }) {
     return (
-        
+        <div className="box-exterior">
         <div class="box-item">
         <div class="flip-box">
         <div
@@ -42,6 +42,7 @@ function CardNew({ title, description, image, toolSkill, code, view }) {
       <a  href={view} className={`${view === "" ? 'none': 'flip-box-button2'}`}target="blank">
       View
       </a>
+    </div>
     </div>
     </div>
     </div>

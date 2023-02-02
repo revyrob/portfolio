@@ -106,6 +106,9 @@
     transform-style: preserve-3d;
   }
   
+  .box-exterior {
+    position: relative;
+  }
   .flip-box .inner {
     position: absolute;
     left: 0;
@@ -137,7 +140,8 @@
   }
   
   .flip-box-img {
-    margin-left: 50px;
+    margin-top: 300%;
+    margin-left: 150%;
     @include tablet{
       margin-top: 100%;
       margin-left: 100px;
