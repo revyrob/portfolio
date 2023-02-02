@@ -10,7 +10,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
+    margin: 0 1rem;
     }
     &__title{
         font-family: $secondary-font;
@@ -19,7 +19,7 @@
         
         @include tablet {
             font-size: 2.5rem;
-            margin-top: 7rem;
+            //margin-top: 7rem;
         }
  
      

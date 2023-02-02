@@ -1,4 +1,4 @@
-import CardNew from "../CardNew/CardNew";
+import Card from "../Card/Card";
 import './ProjectList.scss';
 
 function ProjectList({projects}) {
@@ -13,7 +13,7 @@ function ProjectList({projects}) {
             <div className="projectList__projects">
          
             {array[0] && array[0].map((project)=> (
-            <CardNew
+            <Card
                 key={project.id}
                 id={project.id}
                 title={project.name}

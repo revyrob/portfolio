@@ -12,10 +12,10 @@
     @include tablet {
         flex-direction: row;
     }
-    @include desktop {
-        margin-bottom: 100px;
+    // @include desktop {
+    //     margin-top: 100px;
 
-    }
+    // }
     &__title {
         font-size: 2rem;
         width: 75%;
