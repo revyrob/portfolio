@@ -15,20 +15,7 @@ function BottomNav() {
     setUrl(location.pathname);
   }, [location]);
   return (
-    // <section className="bottomNav">
-    //   <NavLink className="bottomNav__link" to="/">
-    //     <img src={home} className="bottomNav__logo activeBot" alt="Brainflix logo" />
-    //     <p className="bottomNav__p activep">Home</p>
-    //   </NavLink>
-    //   <NavLink className="bottomNav__link" to="/about">
-    //     <img src={info} className="bottomNav__logo filter-white" alt="Brainflix logo" />
-    //     <p className="bottomNav__p">About</p>
-    //   </NavLink>
-    //   <NavLink className="bottomNav__link" to="/projects">
-    //     <img src={project} className="bottomNav__logo filter-white" alt="Brainflix logo" />
-    //     <p className="bottomNav__p">Projects</p>
-    //   </NavLink>
-    // </section>
+  
     <section className="bottomNav">
         <NavLink className="bottomNav__link" to="/">
         <img src={home} className={"bottomNav__logo filter-white" + (url === "/" ?" activeBot" : "")} alt="Brainflix logo" />
