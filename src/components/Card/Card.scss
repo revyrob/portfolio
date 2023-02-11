@@ -13,7 +13,7 @@
   padding-bottom:.25rem;
   @include tablet {
     padding-bottom:1rem;
-    margin:2rem;
+    margin:1rem;
     width: 370px;
   }
   color:$color-accent;
@@ -22,7 +22,7 @@
   width: 320px;
   margin-bottom: 35px;
   max-width: 100%;
-  margin:2rem;
+  // margin:2rem;
   padding-bottom:1rem;
   @include tablet {
     width: 370px;
