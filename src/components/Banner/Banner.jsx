@@ -14,9 +14,9 @@ function Banner() {
       const options = {
           strings: [
             "Hello World",
-            "I sparkle during Hackathons",
+            "I am a Full Stack Developer",
+            "I am keen to learn",
             "I am fervid about coding",
-            "I am a FullStack Developer",
             "I debug code like a jed",
             "I debug code like a mast",
             "I debug code like a junior developer!"

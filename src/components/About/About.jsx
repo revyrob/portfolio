@@ -15,24 +15,28 @@ function About() {
         <>
         <section className="about">
         <div className='about__info'>
-        <h1 className='about__title'>I'm <span className="about__title--change">Kayle Robson</span>.  I am fervid about coding and hackathons!</h1>
+        <h1 className='about__title'>I'm <span className="about__title--change">Kayle Robson</span>.  I am fervid about coding and creating!</h1>
         
         <p className='about__p'>I am a dynamic software developer and started self-learning web development 3 years ago. 
         In the last year and a half, I completed a Web Development Bootcamp with Brainstation, finished my first year of a Computing Science degree at Thompson River University, 
-         and was hired as a Teaching Assistant for the Web Development Bootcamp at Brainstation.  
+        and was hired as a Teaching Assistant for the Web Development Bootcamp at Brainstation.  I am now looking for an opportunity with a welcoming 
+        team where I can continue to learn and build my skills as a Software Developer.
         </p>
-        <p className='about__p'>I am fervid about Hackathons and I have participated in two worldwide and three within my 
-        Brainstation Bootcamp.  The industry hackathon with Telus Digital (which we won!!)  was paired with the UI/UX Designers 
-        at Brainstation.  We used Agile methodologies, created reusable code for the components, and the frontend was 
-        built to connect to a backend.  During my time as a teaching assistant for the Web Development program with Brainstation, 
-        I mentored and helped teach 36 students, marked assignments, provided one-on-one mentorship, and participated in weekly 
-        stand-ups with the Education Team.
+
+        <p className='about__p'>Within personnel projects, group projects, and hackathons I have used different databases such as 
+        MongoDB and MYSQL, frontend frameworks such as React and NextJS, and backend frameworks such as Express and Node.  I have taken classes 
+        in C, C#, Python, Java, and Javascript. I continue to be excited to learn new languages and frameworks and see how I can
+        pull them into personnel projects so I can start to master them.</p>
+        
+        <p className='about__p'>
+        I have a previous diploma in Water Quality Technology Engineering and I worked as 
+        a Environmental Technologist for a few years.  I than opened a bar with my husband and self-learned how to do the bookkeeping,
+        payroll, and general administration.  Later we moved to France and I worked in the hospitality industry for 4 years, it helped me 
+        learn French and I excelled in my ability to be efficient, organized, and communicate to staff and clients in a language I was learning. 
         </p>   
-        <p className='about__p'>Before entering tech I worked in the hospitality industry for 4 years in France. 
-        Within hospitality, I excelled in my ability to be efficient, organized, and meet time-sensitive deadlines. 
-        Previous to working in France I was a bookkeeper, handling accounts receivables, payables, payroll, and year-end. 
-        I self-learned this role while I ran a business with my husband and later worked for a couple of companies within the 
-        same role. </p>
+
+        <p className='about__p '>I love programming because I can make my ideas tangible, continue to learn, put into practice the ability
+        to take a large problem and cut it into bite size pieces, and work with intelligent, creative people.</p>
         </div>
         
         <div className='about__more'>
@@ -49,7 +53,7 @@ function About() {
         <div style={{
             transform: isInView ? "none" : "translateX(-200px)",
             opacity: isInView ? 1 : 0,
-            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.75s"
+            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 1s"
         }}>
             <a target="_blank" rel="noopener noreferrer" a href="mailto:kayle.robson@gmail.com">
         <div className='about__socialListItem'>
