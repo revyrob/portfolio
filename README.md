@@ -1,8 +1,11 @@
 # 👩‍💻 Portfolio -  Frontend 
-Personnel portfolio, displaying my projects and a summary of myself.
+Personnel portfolio, displaying my projects and a summary of myself.  Built with React and React-dom.  I enjoyed learning P5 to create the following matrix affect with the letters in my name.  I also created a looping flicker with my name.  I did have a bit of problem with resetting the banner when the page was resized but I did solve it.  I used MUI, Framer-motion, Formik, and Toastify libraries.  I used SASS for the styling and stuck to the BEM convention.  
 
 ## 🚀 Demo
-https://kayle-robson.netlify.app/
+https://kaylerobson.com
+
+## 📸 Images
+<img src="./public/images/portfolio.png" alt="portfolio screen shot">
 
 ## 💻 Built with
 <li>React</li>
@@ -13,8 +16,7 @@ https://kayle-robson.netlify.app/
 <li>React-router-dom</li>
 <li>react-dom</li>
 <li>SASS</li>
-<li>Tailwind</li>
-<li>Formik</li>
+<li>BEM</li>
 
 ## 🛠️ Installation Steps:
 1. To start using this app you first need to clone the repository:
@@ -33,4 +35,5 @@ https://kayle-robson.netlify.app/
 ## 🔮 Future Plans for Portfolio
 
 <li>Create and add more projects!!</li>
+
 
