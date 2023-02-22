@@ -21,8 +21,20 @@
             font-size: 2.5rem;
             //margin-top: 7rem;
         }
- 
-     
-
     }
 }
+.loader {
+    position: relative;
+    top: 7rem;
+    margin: auto;
+    border: 20px solid $color-dark2;
+    border-radius: 50%;
+    border-top: 20px solid $color-light-sec;
+    width: 12.5rem;
+    height: 12.5rem;
+    animation: spinner 4s linear infinite;
+  }
+  @keyframes spinner {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
