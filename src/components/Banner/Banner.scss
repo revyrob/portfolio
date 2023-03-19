@@ -2,46 +2,12 @@
 @use '../../styles/variables' as *;
 
 .banner {
-    position: relative;
-    background-color: black;
-    width: 100%;
-    height: 100%;
+    height:100vh;
     &__sketch {
-        z-index: -1;
-        position: absolute;
-        //transform: skewY(-0.04turn);
-        transform-origin: top left;
-        top:0;
-        //bottom: auto;
-        //height: 65vh;
-        //margin-bottom: 3rem;
+    height:100vh;
         @include desktop {
-        position: absolute;
-        //transform: skewY(-0.03turn);
-        transform-origin: top left;
-        top:0;
-        bottom: auto;
-        //height: 80vh;
-        
+     
         }
     }
-    &__about {
-        text-align: right;
-        justify-content: center;
-        color: $color-dark;
-        position: absolute;
-        top: 80vh;
-        right: 10vw;
-        font-size: 1rem;
-        width: 100%;
-        font-weight: 700;
-        @include tablet{
-            top: 85vh;
-            font-size: 1.75rem;
-        }
-        @include desktop{
-            top: 78vh;
-            font-size: 2.75rem;
-        }
-    }
+    
 }
