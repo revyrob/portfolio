@@ -134,8 +134,8 @@ export default function sketch(p) {
     //for timer
     p.textAlign(p.CENTER);
     //interval timer in setup
-    setInterval(p.timeIt, 500);
-    setInterval(p.timeLoop, 1500);
+    setInterval(p.timeIt, 300);
+    setInterval(p.timeLoop, 800);
   };
 
   p.draw = function () {
@@ -145,14 +145,12 @@ export default function sketch(p) {
     //timerValue hits zero
     if (timerValue === 0) {
       var fireWhite = p.random(255);
-      var fireGreen = p.random(fireWhite);
-      // p.stroke(0);
+
       p.textSize(42);
-      p.fill(fireWhite, fireGreen);
-      //if window is less then 768px show name in two lines, else show name in one line
-      window.innerWidth < 768
-        ? p.text(`K A Y L E\nR O B S O N`, p.width / 2, p.height / 2)
-        : p.text("K A Y L E   R O B S O N", p.width / 2, p.height / 2);
+      p.fill(fireWhite, fireWhite);
+
+      p.text(`WEB\nDEVELOPER`, p.width / 2, p.height / 2);
+
       rain.forEach((s) => s.draw());
 
       if (timerValue2 === 0) {
@@ -181,7 +179,7 @@ export default function sketch(p) {
 
   //reset timers so blinking name loops
   p.resetTimers = function () {
-    timerValue = 20;
+    timerValue = 10;
     timerValue2 = 10;
   };
 

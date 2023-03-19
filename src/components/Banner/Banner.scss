@@ -9,19 +9,19 @@
     &__sketch {
         z-index: -1;
         position: absolute;
-        transform: skewY(-0.04turn);
+        //transform: skewY(-0.04turn);
         transform-origin: top left;
         top:0;
-        bottom: auto;
-        height: 65vh;
-        margin-bottom: 3rem;
+        //bottom: auto;
+        //height: 65vh;
+        //margin-bottom: 3rem;
         @include desktop {
         position: absolute;
-        transform: skewY(-0.03turn);
+        //transform: skewY(-0.03turn);
         transform-origin: top left;
         top:0;
         bottom: auto;
-        height: 80vh;
+        //height: 80vh;
         
         }
     }

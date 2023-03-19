@@ -6,27 +6,17 @@
   margin:0rem;
   color:$color-accent;
   position: relative;
-  //-webkit-backface-visibility: hidden;
   width: 320px;
   margin-bottom: 35px;
   max-width: 100%;
   padding-bottom:.25rem;
   @include tablet {
     padding-bottom:1rem;
-    margin:1rem;
+    margin:2.5rem;
     width: 370px;
+
   }
-  color:$color-accent;
-  position: relative;
-  //-webkit-backface-visibility: hidden;
-  width: 320px;
-  margin-bottom: 35px;
-  max-width: 100%;
-  // margin:2rem;
-  padding-bottom:1rem;
-  @include tablet {
-    width: 370px;
-  }
+
 }
 
 .flip-box {
