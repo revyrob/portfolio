@@ -8,7 +8,6 @@ function AboutPage() {
         <>
         <TopNav />
         <About />
-        {/* <BottomNav/> */}
        <Footer/>
         </>
     );

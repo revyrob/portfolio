@@ -1,0 +1,36 @@
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
+
+.info {
+padding-top: 10%;
+background-color: $color-dark-sec;
+color: $color-light-sec;
+//width: 100%;
+display:flex;
+flex-direction: column;
+align-items: center;
+padding: 3rem 2rem 2rem;
+@include tablet {
+    width: 60%;
+    padding-left:2rem;
+}
+&__p {
+    //width: 90%;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+    
+}
+&__title {
+    font-size: 2rem;
+    width: 75%;
+    margin-bottom: 2rem;
+    line-height: 3rem;
+    &--change {
+        font-family: $secondary-font;
+    }
+    @include tablet {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+}
+}
