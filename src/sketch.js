@@ -149,7 +149,7 @@ export default function sketch(p) {
       p.textSize(42);
       p.fill(fireWhite, fireWhite);
 
-      p.text(`WEB\nDEVELOPER`, p.width / 2, p.height / 2);
+      p.text(`SOFTWARE\nDEVELOPER`, p.width / 2, p.height / 2);
 
       rain.forEach((s) => s.draw());
 
