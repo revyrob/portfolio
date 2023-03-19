@@ -1,6 +1,15 @@
 {
   "Projects": [
     {
+      "id": "3f6dsfdsdfds-f025-23432-8698-00cfd44974ba",
+      "name": "Flexduck - Learn Flexbox",
+      "description": "Game to learn Flexbox",
+      "image": "/images/BfV2.png",
+      "toolSkill": ["React", "Javascript", "Flexbox"],
+      "code": "https://github.com/Team-PST/flexduck-challenge",
+      "view": "https://flexduck-challenge.netlify.app/"
+    },
+    {
       "id": "3f6dsfdsf0-f025-23432-8698-00cfd44974ba",
       "name": "Briancon Fantomes V2",
       "description": "Revamping the older V1 Braincon Fantomes with React, Framer-motion, and Tailwind",
@@ -12,9 +21,9 @@
     {
       "id": "3f6d5660-f025-4892-1111-00cfd44974ba",
       "name": "Sept Sommet Blog",
-      "description": "Testing out NextJS, Tailwind, and the Sanity backend to create a simple blog for school communication",
+      "description": "Testing out NextJS, Tailwind, Typescript, and the Sanity backend to create a simple blog for school communication",
       "image": "/images/septSommet.png",
-      "toolSkill": ["NextJS", "Tailwind", "Sanity"],
+      "toolSkill": ["NextJS", "Tailwind", "Sanity", "Typescript"],
       "code": "https://github.com/revyrob/septSommet",
       "view": "https://sept-sommet-blog.netlify.app/"
     },
@@ -28,12 +37,31 @@
       "view": "https://operation-mother-earth.netlify.app/"
     },
     {
+      "id": "7c5429bd-8e07-4380-aab3-e57f891b480a",
+      "name": "Telus Hackathon",
+      "description": "Hackathon Winning Team, streamline Telus streaming packages ",
+      "image": "/images/telus.png",
+      "toolSkill": ["React", "Sass", "Framer Motion"],
+      "code": "https://github.com/revyrob/telus-digital-hackathon",
+      "view": "https://hackathon-telus-digital.netlify.app/"
+    },
+    {
       "id": "3f6d5660-f025-4892-1111-00cfd44974ba",
       "name": "Brainflix",
       "description": "Full-stack application with endpoints for create, read, delete",
       "image": "/images/Brainflix.png",
-      "toolSkill": ["React", "Node", "Express", "BEM", "Sass"],
+      "toolSkill": ["React", "Node", "Express", "Axios", "Sass"],
       "code": "https://github.com/revyrob/brainflix-api",
+      "view": ""
+    },
+
+    {
+      "id": "42308591-15f7-447c-b64e-061ba4a94c21",
+      "name": "Pokemon Weather App",
+      "description": "Geolocator with weather, mocktail, and pokemon to find",
+      "image": "/images/pokemon.png",
+      "toolSkill": ["React", "RESTful APIs", "Agile Methodology", "Sass"],
+      "code": "https://github.com/revyrob/pokemon-weather-app-frontend",
       "view": ""
     },
     {
@@ -61,16 +89,25 @@
       "image": "/images/briancon-fantomes.png",
       "toolSkill": ["HTML", "CSS", "Javascript", "Bootstrap"],
       "code": "https://github.com/revyrob/brianconFantomes",
-      "view": "https://brianconfantomes.com/"
+      "view": "https://revyrob.github.io/brianconFantomes/"
     },
     {
       "id": "7c5429bd-8e07-4380-aab3-e5rweb480a",
       "name": "Chateau de Bussiere",
-      "description": "Landing page for touring the Chateau of Bussiere",
+      "description": "Landing page for a Chateau in France",
       "image": "/images/bussiere.png",
       "toolSkill": ["HTML", "CSS", "Javascript", "Bootstrap"],
       "code": "https://github.com/revyrob/chateaubussiere",
       "view": "https://bussiere-les-nonains.fr/"
+    },
+    {
+      "id": "7c5429bd-8e07-4380-aab3-e57f541b498a",
+      "name": "Eureka",
+      "description": "Frontend for mental health application",
+      "image": "/images/euruka.png",
+      "toolSkill": ["Heroku", "EJS", "Javascript", "CSS"],
+      "code": "https://github.com/revyrob/Eureka",
+      "view": ""
     },
     {
       "id": "cf44c818-6f47-4059-ba8c-8987e660cda4",
