@@ -1,6 +1,33 @@
 {
   "Projects": [
     {
+      "id": "3f6dsfdsdfds-f025-23432-8698-00sdfds974ba",
+      "name": "Insurance Fundamentals Quiz",
+      "description": "Full-stack application to helper prepare brokers for the Insurance Fundamental Exam",
+      "image": "/images/insurance.png",
+      "toolSkill": ["React", "Node", "Express", "Axios"],
+      "code": "https://github.com/revyrob/insuranceQuiz",
+      "view": "https://insurance-quiz.netlify.app/"
+    },
+    {
+      "id": "3f6dsfdsdfds-3ffff-23432-8698-00sdfds974ba",
+      "name": "Flutter App: Briancon Fantomes",
+      "description": "Learning how to create a Flutter Application using my Briancon Fantomes data",
+      "image": "/images/insurance.png",
+      "toolSkill": ["Flutter", "Dart"],
+      "code": "https://github.com/revyrob/briancon_fantomes_app",
+      "view": ""
+    },
+    {
+      "id": "3f4444dsdfds-3ffff-23432-8698-00sdfds974ba",
+      "name": "Leroi Delivery Services",
+      "description": "Business page for delivery services in Rossland, BC",
+      "image": "/images/insurance.png",
+      "toolSkill": ["React", "Javascript"],
+      "code": "https://github.com/revyrob/leroiDeliver",
+      "view": "https://leroi-delivery.netlify.app/"
+    },
+    {
       "id": "3f6dsfdsdfds-f025-23432-8698-00cfd44974ba",
       "name": "Flexduck - Learn Flexbox",
       "description": "Hackathon Project: Game to learn Flexbox",
@@ -30,16 +57,25 @@
     {
       "id": "3f6d5660-f025-4892-8698-00cfd44974ba",
       "name": "Operation Mother Earth",
-      "description": "A multi-page appliation for school-age children to learn about e-waste.",
+      "description": "A multi-page appliation for school-age children to learn about e-waste",
       "image": "/images/operation-mother-earth.png",
       "toolSkill": ["MERN", "Google APIs", "Sass", "Framer Motion", "Formik"],
       "code": "https://github.com/revyrob/operation-mother-earth",
       "view": "https://operation-mother-earth.netlify.app/"
     },
     {
+      "id": "3f4444dsdfds-3ffff-23432-111-jlkdjfoi0",
+      "name": "Instock",
+      "description": "Group Project: Full-stack app for warehouse and inventory stock",
+      "image": "/images/insurance.png",
+      "toolSkill": ["React", "Javascript"],
+      "code": "",
+      "view": ""
+    },
+    {
       "id": "7c5429bd-8e07-4380-aab3-e57f891b480a",
       "name": "Telus Hackathon",
-      "description": "Hackathon Winning Team, streamline Telus streaming packages ",
+      "description": "Hackathon Winning Team: Streamline Telus' streaming packages ",
       "image": "/images/telus.png",
       "toolSkill": ["React", "Sass", "Framer Motion"],
       "code": "https://github.com/revyrob/telus-digital-hackathon",
@@ -48,17 +84,25 @@
     {
       "id": "3f6d5660-f025-4892-1111-00cfd44974ba",
       "name": "Brainflix",
-      "description": "Full-stack application with endpoints for create, read, delete",
+      "description": "Full-stack application where images, info, and comments can be added",
       "image": "/images/Brainflix.png",
       "toolSkill": ["React", "Node", "Express", "Axios", "Sass"],
       "code": "https://github.com/revyrob/brainflix-api",
       "view": ""
     },
-
+    {
+      "id": "3f4444dsdfds-3ffff-23432-111-00sdfds974ba",
+      "name": "Bandsite",
+      "description": "School Project: Interactive site for a band",
+      "image": "/images/insurance.png",
+      "toolSkill": ["React", "Javascript"],
+      "code": "https://github.com/revyrob/bandsite",
+      "view": ""
+    },
     {
       "id": "42308591-15f7-447c-b64e-061ba4a94c21",
       "name": "Pokemon Weather App",
-      "description": "Geolocator with weather, mocktail, and pokemon to find",
+      "description": "Hackathon Project: Geolocator for users' weather, mocktail, and pokemon to find",
       "image": "/images/pokemon.png",
       "toolSkill": ["React", "RESTful APIs", "Agile Methodology", "Sass"],
       "code": "https://github.com/revyrob/pokemon-weather-app-frontend",
