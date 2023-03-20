@@ -3,8 +3,8 @@
     {
       "id": "3f6dsfdsdfds-f025-23432-8698-00cfd44974ba",
       "name": "Flexduck - Learn Flexbox",
-      "description": "Game to learn Flexbox",
-      "image": "/images/BfV2.png",
+      "description": "Hackathon Project: Game to learn Flexbox",
+      "image": "/images/flexduck.png",
       "toolSkill": ["React", "Javascript", "Flexbox"],
       "code": "https://github.com/Team-PST/flexduck-challenge",
       "view": "https://flexduck-challenge.netlify.app/"
