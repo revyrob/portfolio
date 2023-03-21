@@ -20,7 +20,7 @@ function Info() {
     <p className='info__p'>
     I have a previous diploma in Water Quality Technology Engineering and I worked as 
     a Environmental Technologist for a few years.  I than opened a bar with my husband and self-learned how to do the bookkeeping,
-    payroll, and general administration.  Later we moved to France and I worked in the hospitality industry for 4 years.  I leanred French
+    payroll, and general administration.  Later we moved to France and I worked in the hospitality industry for 4 years.  I learned French
     and I excelled in my ability to be efficient, organized, and communicate to staff and clients in a new language. 
     </p>   
 

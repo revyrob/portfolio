@@ -3,9 +3,9 @@
     {
       "id": "3f6dsfdsdfds-f025-23432-8698-00sdfds974ba",
       "name": "Insurance Fundamentals Quiz",
-      "description": "Full-stack application to helper prepare brokers for the Insurance Fundamental Exam",
+      "description": "Full-stack application to help prepare brokers for the Insurance Fundamental Exam",
       "image": "/images/insurance.png",
-      "toolSkill": ["React", "Node", "Express", "Axios"],
+      "toolSkill": ["React", "React-router-dom", "Tailwind", "Express"],
       "code": "https://github.com/revyrob/insuranceQuiz",
       "view": "https://insurance-quiz.netlify.app/"
     },
@@ -13,8 +13,8 @@
       "id": "3f6dsfdsdfds-3ffff-23432-8698-00sdfds974ba",
       "name": "Flutter App: Briancon Fantomes",
       "description": "Learning how to create a Flutter Application using my Briancon Fantomes data",
-      "image": "/images/insurance.png",
-      "toolSkill": ["Flutter", "Dart"],
+      "image": "/images/flutter.png",
+      "toolSkill": ["Flutter", "Dart", "AudioPlayers", "Carousel-por"],
       "code": "https://github.com/revyrob/briancon_fantomes_app",
       "view": ""
     },
@@ -22,8 +22,8 @@
       "id": "3f4444dsdfds-3ffff-23432-8698-00sdfds974ba",
       "name": "Leroi Delivery Services",
       "description": "Business page for delivery services in Rossland, BC",
-      "image": "/images/insurance.png",
-      "toolSkill": ["React", "Javascript"],
+      "image": "/images/leroi.png",
+      "toolSkill": ["React", "MUI", "Tailwind", "Framer-motion"],
       "code": "https://github.com/revyrob/leroiDeliver",
       "view": "https://leroi-delivery.netlify.app/"
     },
@@ -66,10 +66,10 @@
     {
       "id": "3f4444dsdfds-3ffff-23432-111-jlkdjfoi0",
       "name": "Instock",
-      "description": "Group Project: Full-stack app for warehouse and inventory stock",
-      "image": "/images/insurance.png",
-      "toolSkill": ["React", "Javascript"],
-      "code": "",
+      "description": "Group Project: Full-stack app implementing CRUD operations for warehouse and inventory stock",
+      "image": "/images/instock.png",
+      "toolSkill": ["React", "React-router-dom", "Axios", "Sass", "Express"],
+      "code": "https://github.com/revyrob/instock-json",
       "view": ""
     },
     {
@@ -93,11 +93,11 @@
     {
       "id": "3f4444dsdfds-3ffff-23432-111-00sdfds974ba",
       "name": "Bandsite",
-      "description": "School Project: Interactive site for a band",
-      "image": "/images/insurance.png",
-      "toolSkill": ["React", "Javascript"],
+      "description": "School Project: HTML site using Javascript and manipulating the DOM",
+      "image": "/images/bandsite.png",
+      "toolSkill": ["HTML5", "Javascript", "Sass", "BEM"],
       "code": "https://github.com/revyrob/bandsite",
-      "view": ""
+      "view": "https://revyrob.github.io/bandsite/"
     },
     {
       "id": "42308591-15f7-447c-b64e-061ba4a94c21",
