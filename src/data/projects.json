@@ -14,14 +14,14 @@
       "name": "Flutter App: Briancon Fantomes",
       "description": "Learning how to create a Flutter Application using my Briancon Fantomes data",
       "image": "/images/flutter.png",
-      "toolSkill": ["Flutter", "Dart", "AudioPlayers", "Carousel-por"],
+      "toolSkill": ["Flutter", "Dart", "AudioPlayers", "Carousel-pro"],
       "code": "https://github.com/revyrob/briancon_fantomes_app",
       "view": ""
     },
     {
       "id": "3f4444dsdfds-3ffff-23432-8698-00sdfds974ba",
       "name": "Leroi Delivery Services",
-      "description": "Business page for delivery services in Rossland, BC",
+      "description": "Business page for delivery service in Rossland, BC",
       "image": "/images/leroi.png",
       "toolSkill": ["React", "MUI", "Tailwind", "Framer-motion"],
       "code": "https://github.com/revyrob/leroiDeliver",
@@ -147,7 +147,7 @@
     {
       "id": "7c5429bd-8e07-4380-aab3-e57f541b498a",
       "name": "Eureka",
-      "description": "Frontend for mental health application",
+      "description": "Hackathon Project: Frontend app for mental health planner",
       "image": "/images/euruka.png",
       "toolSkill": ["Heroku", "EJS", "Javascript", "CSS"],
       "code": "https://github.com/revyrob/Eureka",
@@ -156,16 +156,16 @@
     {
       "id": "cf44c818-6f47-4059-ba8c-8987e660cda4",
       "name": "Bike Briancon V2",
-      "description": "Version 2: Bike web application for Serre Chevalier Valley in France",
+      "description": "Version 2: Web application for biking in Serre Chevalier Valley in France",
       "image": "/images/bike-brianconV2.png",
-      "toolSkill": ["HTML", "CSS", "Javascript", "Bootstrap"],
+      "toolSkill": ["HTML", "CSS", "Javascript", "Bootstrap", "QGIS"],
       "code": "https://github.com/revyrob/bikeBriancon",
       "view": "https://bikebriancon.fr/"
     },
     {
       "id": "01880db0-6dc3-400f-bcb2-5d26b6715384",
       "name": "Bike Briancon V1",
-      "description": "Version 1: Bike web application for Serre Chevalier Valley in France",
+      "description": "Version 1: Web application for biking in Serre Chevalier Valley in France",
       "image": "/images/bike-brianconV1.png",
       "toolSkill": ["EJS", "Heroku", "Javascript", "QGIS"],
       "code": "https://github.com/revyrob/bikeBrianconV1",
