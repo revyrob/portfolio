@@ -149,7 +149,7 @@
       "name": "Eureka",
       "description": "Hackathon Project: Frontend app for mental health planner",
       "image": "/images/euruka.png",
-      "toolSkill": ["Heroku", "EJS", "Javascript", "CSS"],
+      "toolSkill": ["Heroku", "EJS", "Javascript", "CSS", "Node"],
       "code": "https://github.com/revyrob/Eureka",
       "view": ""
     },
@@ -167,7 +167,7 @@
       "name": "Bike Briancon V1",
       "description": "Version 1: Web application for biking in Serre Chevalier Valley in France",
       "image": "/images/bike-brianconV1.png",
-      "toolSkill": ["EJS", "Heroku", "Javascript", "QGIS"],
+      "toolSkill": ["EJS", "Heroku", "Javascript", "QGIS", "Node"],
       "code": "https://github.com/revyrob/bikeBrianconV1",
       "view": ""
     }
