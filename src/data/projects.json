@@ -1,6 +1,15 @@
 {
   "Projects": [
     {
+      "id": "3f6dsfdsdfds-f025-23432-8698-00cfd44974ba",
+      "name": "Flexduck - Learn Flexbox",
+      "description": "Hackathon Project: Game to learn Flexbox",
+      "image": "/images/flexduck.png",
+      "toolSkill": ["React", "Javascript", "Sass"],
+      "code": "https://github.com/Team-PST/flexduck-challenge",
+      "view": "https://flexduck-challenge.netlify.app/"
+    },
+    {
       "id": "3f6dsfdsdfds-f025-23432-8698-00sdfds974ba",
       "name": "Insurance Fundamentals Quiz",
       "description": "Full-stack application to help prepare brokers for the Insurance Fundamental Exam",
@@ -27,15 +36,7 @@
       "code": "https://github.com/revyrob/leroiDeliver",
       "view": "https://leroi-delivery.netlify.app/"
     },
-    {
-      "id": "3f6dsfdsdfds-f025-23432-8698-00cfd44974ba",
-      "name": "Flexduck - Learn Flexbox",
-      "description": "Hackathon Project: Game to learn Flexbox",
-      "image": "/images/flexduck.png",
-      "toolSkill": ["React", "Javascript", "Flexbox"],
-      "code": "https://github.com/Team-PST/flexduck-challenge",
-      "view": "https://flexduck-challenge.netlify.app/"
-    },
+
     {
       "id": "3f6dsfdsf0-f025-23432-8698-00cfd44974ba",
       "name": "Briancon Fantomes V2",
@@ -57,7 +58,7 @@
     {
       "id": "3f6d5660-f025-4892-8698-00cfd44974ba",
       "name": "Operation Mother Earth",
-      "description": "A multi-page appliation for school-age children to learn about e-waste",
+      "description": "A multi-page application for school-age children to learn about e-waste",
       "image": "/images/operation-mother-earth.png",
       "toolSkill": ["MERN", "Google APIs", "Sass", "Framer Motion", "Formik"],
       "code": "https://github.com/revyrob/operation-mother-earth",
@@ -93,7 +94,7 @@
     {
       "id": "3f4444dsdfds-3ffff-23432-111-00sdfds974ba",
       "name": "Bandsite",
-      "description": "School Project: HTML site using Javascript and manipulating the DOM",
+      "description": "School Project: HTML site using Javascript and manipulated the DOM",
       "image": "/images/bandsite.png",
       "toolSkill": ["HTML5", "Javascript", "Sass", "BEM"],
       "code": "https://github.com/revyrob/bandsite",
