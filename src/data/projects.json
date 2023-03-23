@@ -47,7 +47,7 @@
     {
       "id": "3f6dsfdsf0-f025-23432-8698-00cfd44974ba",
       "name": "Briancon Fantomes V2",
-      "description": "Briancon Fantomes is the evolution of Briancon Fantomes V1",
+      "description": "Updated and evolved version of Briancon Fantomes, an audio tour website",
       "image": "/images/BfV2.png",
       "toolSkill": [
         "React",
@@ -63,7 +63,7 @@
     {
       "id": "3f6d5660-f025-4892-1111-00cfd44974ba",
       "name": "Sept Sommet Blog",
-      "description": "The elementary school my children go to was looking at different ways to communicate information to the parents",
+      "description": "Mock-up for a communication blog for information exchanged between the school and parents",
       "image": "/images/septSommet.png",
       "toolSkill": ["NextJS", "Tailwind", "Sanity", "Typescript"],
       "code": "https://github.com/revyrob/septSommet",
@@ -109,7 +109,7 @@
       "name": "Telus Hackathon",
       "description": "Hackathon Winning Team: Streamline Telus' streaming packages ",
       "image": "/images/telus.png",
-      "toolSkill": ["React", "Sass", "Framer Motion"],
+      "toolSkill": ["React", "Sass", "Framer Motion", "Agile Methodologies"],
       "code": "https://github.com/revyrob/telus-digital-hackathon",
       "view": "https://hackathon-telus-digital.netlify.app/"
     },
@@ -125,7 +125,7 @@
     {
       "id": "3f4444dsdfds-3ffff-23432-111-00sdfds974ba",
       "name": "Bandsite",
-      "description": "School Project: HTML site using Javascript and manipulated the DOM",
+      "description": "School Project: HTML site using Javascript and manipulating the DOM",
       "image": "/images/bandsite.png",
       "toolSkill": ["HTML5", "Javascript", "Sass", "BEM"],
       "code": "https://github.com/revyrob/bandsite",
@@ -188,7 +188,7 @@
     {
       "id": "cf44c818-6f47-4059-ba8c-8987e660cda4",
       "name": "Bike Briancon V2",
-      "description": "Version 2: Web application for biking in Serre Chevalier Valley in France",
+      "description": "Version 2: Built from scratch, web application for biking in Serre Chevalier Valley in France",
       "image": "/images/bike-brianconV2.png",
       "toolSkill": ["HTML", "CSS", "Javascript", "Bootstrap", "QGIS"],
       "code": "https://github.com/revyrob/bikeBriancon",
@@ -197,7 +197,7 @@
     {
       "id": "01880db0-6dc3-400f-bcb2-5d26b6715384",
       "name": "Bike Briancon V1",
-      "description": "Version 1: Web application for biking in Serre Chevalier Valley in France",
+      "description": "Version 1: Used a Heroku template, web application for biking in Serre Chevalier Valley in France",
       "image": "/images/bike-brianconV1.png",
       "toolSkill": ["EJS", "Heroku", "Javascript", "QGIS", "Node"],
       "code": "https://github.com/revyrob/bikeBrianconV1",
