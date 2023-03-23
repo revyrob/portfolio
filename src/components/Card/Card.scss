@@ -105,18 +105,20 @@
 }
 
 .flip-box-header {
-  font-size: 24px;
+  font-size: 20px;
   padding-top:1.5rem;
   &--sub {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 
 .flip-box-p {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5em;
 }
-
+.flip-box-list {
+  font-size: 14px;
+}
 .flip-box-img {
   margin-left: 50px;
   @include tablet{
