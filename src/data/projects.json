@@ -1,6 +1,15 @@
 {
   "Projects": [
     {
+      "id": "3f6dseeeeyds-f025-23432-8698-00cfd44974ba",
+      "name": "Intergalactic Planetary - Learn about the Solar System",
+      "description": "Hackathon Project: full-stack application for students to learn about the solar system",
+      "image": "/images/galaticgif.gif",
+      "toolSkill": ["React", "Express", "MySQL", "Javascript", "Sass"],
+      "code": "https://github.com/revyrob/solarSystem",
+      "view": "https://intergalactic-planetary.netlify.app/"
+    },
+    {
       "id": "3f6dsfdsdfds-f025-23432-8698-00cfd44974ba",
       "name": "Flexduck - Learn Flexbox",
       "description": "Hackathon Project: Front-end application for users to learn about Flexbox by playing a game",
