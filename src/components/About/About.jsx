@@ -60,7 +60,7 @@ function About() {
         <Info />
 
         </div>
-        <ProjectList projects={projects} />
+        <ProjectList id="projects" projects={projects} />
 
         </section>
         </>

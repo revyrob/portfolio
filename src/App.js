@@ -20,7 +20,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/About" element={<AboutPage />} />
-        <Route path="/Projects" element={<ProjectPage />} />
+        <Route path="/Projects" element={<AboutPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
