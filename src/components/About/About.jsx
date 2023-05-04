@@ -4,20 +4,23 @@ import github from '../../assets/icons/github.svg';
 import linkedIn from '../../assets/icons/icon-linkedin.png';
 import instagram from '../../assets/icons/icon-instagram.png';
 import mail from '../../assets/icons/mail-icon.svg';
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { useInView } from "framer-motion";
 import Info from '../Info/Info';
+import ProjectList from '../ProjectList/ProjectList';
+import ProjectData from "../../data/projects.json";
+
 
 function About() {
     //useRef and useInView for the photo of myself moving into the screen when 'inview'
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true });
+    //create a state with project data
+  const [projects] = useState(ProjectData);
     return (
         <>
-        <section className="about">
-       
-        
-        
+        <section >
+        <div className='about'>
         <div className='about__more'>
         
         <div className="about__img" ref={ref}>
@@ -55,6 +58,10 @@ function About() {
         </div>
         </div>
         <Info />
+
+        </div>
+        <ProjectList projects={projects} />
+
         </section>
         </>
         );

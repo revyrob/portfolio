@@ -1,0 +1,216 @@
+{
+  "Projects": [
+    {
+      "id": "3f6dseeeeyds-f025-23432-8698-00cfd44974ba",
+      "name": "Intergalactic Planetary - Learn about the Solar System",
+      "description": "Hackathon Project: full-stack application for students to learn about the solar system",
+      "image": "/images/galaticgif.gif",
+      "toolSkill": ["React", "Express", "MySQL", "AWS", "Sass"],
+      "code": "https://github.com/revyrob/solarSystem",
+      "view": "https://intergalactic-planetary.netlify.app/"
+    },
+    {
+      "id": "3f6dsfdsdfds-f025-23432-8698-00cfd44974ba",
+      "name": "Flexduck - Learn Flexbox",
+      "description": "Hackathon Project: Front-end application for users to learn about Flexbox by playing a game",
+      "image": "/images/flexduck.png",
+      "toolSkill": ["React", "Javascript", "Sass"],
+      "code": "https://github.com/Team-PST/flexduck-challenge",
+      "view": "https://flexduck-challenge.netlify.app/"
+    },
+    {
+      "id": "3f6dsfdsdfds-f025-23432-8698-00sdfds974ba",
+      "name": "Insurance Fundamentals Quiz",
+      "description": "Full-stack application to help prepare brokers for the Insurance Fundamental Exam",
+      "image": "/images/insurance.png",
+      "toolSkill": [
+        "React",
+        "React-router-dom",
+        "Tailwind",
+        "Express",
+        "Node",
+        "Axios"
+      ],
+      "code": "https://github.com/revyrob/insuranceQuiz",
+      "view": "https://insurance-quiz.netlify.app/"
+    },
+    {
+      "id": "3f6dsfdsdfds-3ffff-23432-8698-00sdfds974ba",
+      "name": "Flutter App: Briancon Fantomes",
+      "description": "Learning how to create a Flutter Application using my Briancon Fantomes data",
+      "image": "/images/flutter.png",
+      "toolSkill": ["Flutter", "Dart", "AudioPlayers", "Carousel-pro"],
+      "code": "https://github.com/revyrob/briancon_fantomes_app",
+      "view": ""
+    },
+    {
+      "id": "3f4444dsdfds-3ffff-23432-8698-00sdfds974ba",
+      "name": "Leroi Delivery Services",
+      "description": "Business page for delivery service in Rossland, BC",
+      "image": "/images/leroi.png",
+      "toolSkill": ["React", "MUI", "Tailwind", "Framer-motion"],
+      "code": "https://github.com/revyrob/leroiDeliver",
+      "view": "https://leroi-delivery.netlify.app/"
+    },
+
+    {
+      "id": "3f6dsfdsf0-f025-23432-8698-00cfd44974ba",
+      "name": "Briancon Fantomes V2",
+      "description": "Updated and evolved version of Briancon Fantomes, an audio tour website",
+      "image": "/images/BfV2.png",
+      "toolSkill": [
+        "React",
+        "Framer Motion",
+        "Tailwind",
+        "Formik",
+        "React-audio-player",
+        "React useContext"
+      ],
+      "code": "https://github.com/revyrob/brianconFantomes-V2",
+      "view": "https://brianconfantomes.com/"
+    },
+    {
+      "id": "3f6d5660-f025-4892-1111-00cfd44974ba",
+      "name": "Sept Sommet Blog",
+      "description": "Mock-up for a communication blog for information exchanged between the school and parents",
+      "image": "/images/septSommet.png",
+      "toolSkill": ["NextJS", "Tailwind", "Sanity", "Typescript"],
+      "code": "https://github.com/revyrob/septSommet",
+      "view": "https://sept-sommet-blog.netlify.app/"
+    },
+    {
+      "id": "3f6d5660-f025-4892-8698-00cfd44974ba",
+      "name": "Operation Mother Earth",
+      "description": "A multi-page application for school-age children to learn about e-waste",
+      "image": "/images/operation-mother-earth.png",
+      "toolSkill": [
+        "MERN",
+        "Google APIs",
+        "Sass",
+        "Framer Motion",
+        "Formik",
+        "Mongoose",
+        "RESTfuls APIs",
+        "MUI"
+      ],
+      "code": "https://github.com/revyrob/operation-mother-earth",
+      "view": "https://operation-mother-earth.netlify.app/"
+    },
+    {
+      "id": "3f4444dsdfds-3ffff-23432-111-jlkdjfoi0",
+      "name": "Instock",
+      "description": "Group Project: Full-stack app implementing CRUD operations for warehouse and inventory stock",
+      "image": "/images/instock.png",
+      "toolSkill": [
+        "React",
+        "React-router-dom",
+        "Axios",
+        "Sass",
+        "Express",
+        "Node",
+        "RESTful APIs"
+      ],
+      "code": "https://github.com/revyrob/instock-json",
+      "view": ""
+    },
+    {
+      "id": "7c5429bd-8e07-4380-aab3-e57f891b480a",
+      "name": "Telus Hackathon",
+      "description": "Hackathon Winning Team: Streamline Telus' streaming packages ",
+      "image": "/images/telus.png",
+      "toolSkill": ["React", "Sass", "Framer Motion", "Agile Methodologies"],
+      "code": "https://github.com/revyrob/telus-digital-hackathon",
+      "view": "https://hackathon-telus-digital.netlify.app/"
+    },
+    {
+      "id": "3f6d5660-f025-4892-1111-00cfd44974ba",
+      "name": "Brainflix",
+      "description": "Full-stack application where images, info, and comments can be added",
+      "image": "/images/Brainflix.png",
+      "toolSkill": ["React", "Node", "Express", "Axios", "Sass", "APIs"],
+      "code": "https://github.com/revyrob/brainflix-api",
+      "view": ""
+    },
+    {
+      "id": "3f4444dsdfds-3ffff-23432-111-00sdfds974ba",
+      "name": "Bandsite",
+      "description": "School Project: HTML site using Javascript and manipulating the DOM",
+      "image": "/images/bandsite.png",
+      "toolSkill": ["HTML5", "Javascript", "Sass", "BEM"],
+      "code": "https://github.com/revyrob/bandsite",
+      "view": "https://revyrob.github.io/bandsite/"
+    },
+    {
+      "id": "42308591-15f7-447c-b64e-061ba4a94c21",
+      "name": "Pokemon Weather App",
+      "description": "Full-stack applicaion which serves up some Pokemon to hunt, the weather, and a freshing mocktail after the hunt",
+      "image": "/images/pokemon.png",
+      "toolSkill": ["React", "RESTful APIs", "Node", "Express", "Sass"],
+      "code": "https://github.com/revyrob/pokemon-weather-app-frontend",
+      "view": ""
+    },
+    {
+      "id": "3f6d5660-4444-4892-1111-00cf234974ba",
+      "name": "Product Sorter",
+      "description": "Python application which sorts product codes from a text file.  Once the codes are validated they are written on a text file.",
+      "image": "/images/valid_code.png",
+      "toolSkill": ["Python"],
+      "code": "https://github.com/revyrob/productSort",
+      "view": ""
+    },
+    {
+      "id": "3f6d5660-4444-4892-1111-00cfd44974ba",
+      "name": "UserName Creator",
+      "description": "Python application where a user enters required information and a UserName is created.",
+      "image": "/images/user-login.png",
+      "toolSkill": ["Python"],
+      "code": "https://github.com/revyrob/UsernameCreator",
+      "view": ""
+    },
+    {
+      "id": "7c5429bd-8e07-4380-aab3-e57f541b480a",
+      "name": "Briancon Fantomes",
+      "description": "Version 1 Audio tour website for the medieval town of Briancon.",
+      "image": "/images/briancon-fantomes.png",
+      "toolSkill": ["HTML", "CSS", "Javascript", "Bootstrap"],
+      "code": "https://github.com/revyrob/brianconFantomes",
+      "view": "https://revyrob.github.io/brianconFantomes/"
+    },
+    {
+      "id": "7c5429bd-8e07-4380-aab3-e5rweb480a",
+      "name": "Chateau de Bussiere",
+      "description": "Landing page for a Chateau in France",
+      "image": "/images/bussiere.png",
+      "toolSkill": ["HTML", "CSS", "Javascript", "Bootstrap"],
+      "code": "https://github.com/revyrob/chateaubussiere",
+      "view": "https://bussiere-les-nonains.fr/"
+    },
+    {
+      "id": "7c5429bd-8e07-4380-aab3-e57f541b498a",
+      "name": "Eureka",
+      "description": "Hackathon Project: Frontend app for mental health planner",
+      "image": "/images/euruka.png",
+      "toolSkill": ["Heroku", "EJS", "Javascript", "CSS", "Node"],
+      "code": "https://github.com/revyrob/Eureka",
+      "view": ""
+    },
+    {
+      "id": "cf44c818-6f47-4059-ba8c-8987e660cda4",
+      "name": "Bike Briancon V2",
+      "description": "Version 2: Built from scratch, web application for biking in Serre Chevalier Valley in France",
+      "image": "/images/bike-brianconV2.png",
+      "toolSkill": ["HTML", "CSS", "Javascript", "Bootstrap", "QGIS"],
+      "code": "https://github.com/revyrob/bikeBriancon",
+      "view": "https://bikebriancon.fr/"
+    },
+    {
+      "id": "01880db0-6dc3-400f-bcb2-5d26b6715384",
+      "name": "Bike Briancon V1",
+      "description": "Version 1: Used a Heroku template, web application for biking in Serre Chevalier Valley in France",
+      "image": "/images/bike-brianconV1.png",
+      "toolSkill": ["EJS", "Heroku", "Javascript", "QGIS", "Node"],
+      "code": "https://github.com/revyrob/bikeBrianconV1",
+      "view": ""
+    }
+  ]
+}
