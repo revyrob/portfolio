@@ -4,31 +4,16 @@ import './Info.scss';
 function Info() {
   return (
     <div className='info'>
-        <h1 className='info__title'>I'm <span className="info__title--change">Kayle Robson</span>.  I am fervid about coding and creating!</h1>
-        
-    <div> <p className='info__p'>I am a dynamic software developer and started self-learning web development 3 years ago. 
-    In the last year and a half, I completed a Web Development Bootcamp with Brainstation, finished my first year of a Computing Science degree at Thompson River University, 
-    and was hired as a Teaching Assistant for the Web Development Bootcamp at Brainstation.  I am now looking for an opportunity with a welcoming 
-    team where I can continue to learn and build my skills as a Software Developer.
-    </p>
-
-    <p className='info__p'>Within personnel projects, group projects, and hackathons I have used different databases such as 
-    MongoDB and MYSQL, frontend frameworks such as React and NextJS, and backend frameworks such as Express and Node.  I have taken classes 
-    in C, C#, Python, Java, and Javascript. I continue to be excited to learn new languages and frameworks and see how I can
-    pull them into personnel projects so I can start to master them.</p>
+    <h1 className='info__title'>I'm <span className="info__title--change">Kayle Robson</span>.  I am fervid about coding and creating!</h1>
     
-    <p className='info__p'>
-    I have a previous diploma in Water Quality Technology Engineering and I worked as 
-    a Environmental Technologist for a few years.  I than opened a bar with my husband and self-learned how to do the bookkeeping,
-    payroll, and general administration.  Later we moved to France and I worked in the hospitality industry for 4 years.  I learned French
-    and I excelled in my ability to be efficient, organized, and communicate to staff and clients in a new language. 
-    </p>   
-
-    <p className='info__p '>I love programming because I can make my ideas tangible, continue to learn, take a large problems and cut them 
-    into bite size pieces, and work with intelligent and creative people.</p>
+    <div> 
+    
+    <p className='info__p'>At 18 years old, I moved to Lake Louise, Canada, to live in a ski town, despite never having skied before. At 19, I left for London, England on my own on a two-year working visa. During my 20s, I drove a snow groomer at three different BC resorts, worked as an environmental technician across BC and Alberta, learned how to bookkeep and complete payroll for different companies, renovated an old building with my husband, and started a bar. At 30, I celebrated my birthday - 6 months pregnant - at a 10-day silent meditation retreat. At 34, I moved to France with my family to learn French. At 35, I started to learn to code. I enjoy continuous learning, inner reflection, working with dynamic individuals, and living outside my comfort zone. I love programming because it requires me to constantly think analytically, transform ideas into tangible applications, and adapt to constant change.</p>
+    <p className='info__p '>I live by the motto 'Be Kind', and I have participated in many committees, organizations, and co-ops to help attain community progression. I have volunteered with environmental groups and hosted bike swaps. I was an executive member, starting a climbing co-op, and volunteered at community gardens and local food initiative organizations. I tried to start a car co-op but was deterred by insurance costs! Currently, I am an executive member with the parent group at my children's school.</p>
+   
     </div>
     </div>
-  )
-}
-
-export default Info
+    )
+  }
+  
+  export default Info

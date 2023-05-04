@@ -1,5 +1,5 @@
 import './About.scss';
-import kayle from '../../assets/images/kayle.png';
+import kayle from '../../assets/images/kayle.jpg';
 import github from '../../assets/icons/github.svg';
 import linkedIn from '../../assets/icons/icon-linkedin.png';
 import instagram from '../../assets/icons/icon-instagram.png';
@@ -15,8 +15,8 @@ function About() {
     return (
         <>
         <section className="about">
-        <Info />
        
+        
         
         <div className='about__more'>
         
@@ -34,7 +34,7 @@ function About() {
             opacity: isInView ? 1 : 0,
             transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 1s"
         }}>
-            <a target="_blank" rel="noopener noreferrer" a href="mailto:kayle.robson@gmail.com">
+        <a target="_blank" rel="noopener noreferrer" a href="mailto:kayle.robson@gmail.com">
         <div className='about__socialListItem'>
         <img className='about__social--icon' src={mail} alt='mail icon' /><p className='about__social--p'>Email me</p>
         </div></a>
@@ -54,6 +54,7 @@ function About() {
         </div>
         </div>
         </div>
+        <Info />
         </section>
         </>
         );
