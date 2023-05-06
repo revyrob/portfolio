@@ -29,21 +29,23 @@ function App() {
   //create a state with project data
   const [projects] = useState(ProjectData);
   return (
-    <BrowserRouter>
-      <header className="bottomNav">
-        <Link className="bottomNav__link" to="">
-          Home
-        </Link>
-        <Link className="bottomNav__link" to="">
-          About
-        </Link>
-        <Link className="bottomNav__link" to="#projects">
-          Projects
-        </Link>
-      </header>
+    <>
+      <BrowserRouter>
+        <header className="bottomNav">
+          <Link className="bottomNav__link" to="">
+            Home
+          </Link>
+          <Link className="bottomNav__link" to="">
+            About
+          </Link>
+          <Link className="bottomNav__link" to="#projects">
+            Projects
+          </Link>
+        </header>
+      </BrowserRouter>
       <About />
       <ProjectList projects={projects} />
-    </BrowserRouter>
+    </>
   );
 }
 
