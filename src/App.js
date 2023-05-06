@@ -10,7 +10,7 @@ import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 import About from "./components/About/About";
-import ProjectData from "../data/projects.json";
+import ProjectData from "./data/projects.json";
 
 const TRACKING_ID = "UA-212922012-1"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
@@ -30,48 +30,17 @@ function App() {
   const [projects] = useState(ProjectData);
   return (
     <BrowserRouter>
-      <section className="bottomNav">
-        <Link className="bottomNav__link" to="/">
-          <img
-            src={home}
-            className={
-              "bottomNav__logo filter-white" + (url === "/" ? " activeBot" : "")
-            }
-            alt="home"
-          />
-          <p className={"bottomNav__p " + (url === "/" ? " activep" : "")}>
-            Home
-          </p>
+      <header className="bottomNav">
+        <Link className="bottomNav__link" to="">
+          Home
         </Link>
-        <Link className="bottomNav__link" to="#about">
-          <img
-            src={info}
-            className={
-              "bottomNav__logo filter-white" +
-              (url === "/about" ? " activeBot" : "")
-            }
-            alt="info"
-          />
-          <p className={"bottomNav__p" + (url === "/about" ? " activep" : "")}>
-            About
-          </p>
+        <Link className="bottomNav__link" to="">
+          About
         </Link>
         <Link className="bottomNav__link" to="#projects">
-          <img
-            src={project}
-            className={
-              "bottomNav__logo filter-white" +
-              (url === "/projects" ? " activeBot" : "")
-            }
-            alt="projects"
-          />
-          <p
-            className={"bottomNav__p" + (url === "/projects" ? " activep" : "")}
-          >
-            Projects
-          </p>
+          Projects
         </Link>
-      </section>
+      </header>
       <About />
       <ProjectList projects={projects} />
     </BrowserRouter>
