@@ -35,14 +35,6 @@ function App() {
       <ProjectList id="projects" projects={projects} />
       <Footer />
     </BrowserRouter>
-    // <>
-    //   <section className="landing">
-    //     <Banner />
-    //     <TopNav />
-    //   </section>
-    //   <About />
-    //   <ProjectList id="projects" projects={projects} />
-    // </>
   );
 }
 
