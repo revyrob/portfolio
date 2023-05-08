@@ -1,6 +1,7 @@
 import "./BottomNav.scss";
 import { NavLink } from "react-router-dom";
-import home from "../../assets/icons/home-icon.svg";
+import social from "../../assets/icons/social-media.png";
+import resume from "../../assets/icons/resume.png";
 import info from "../../assets/icons/info-icon.png";
 import project from "../../assets/icons/project-icon.png";
 import React, { useEffect, useState } from 'react';
@@ -21,21 +22,21 @@ function BottomNav() {
         <img src={home} className={"bottomNav__logo filter-white" + (url === "/" ?" activeBot" : "")} alt="Brainflix logo" />
           <p className={"bottomNav__p " + (url === "/" ?" activep" : "")}>Home</p>
         </NavLink> */}
-        <NavLink className="bottomNav__link" to="/#about">
+        <NavLink className="bottomNav__link" to="/#/about">
           <img src={info} className={"bottomNav__logo filter-white" + (url === "/about" ?" activeBot" : "")} alt="about icon" />
-          <p className={"bottomNav__p" + (url === "/about" ?" activep" : "")}>About</p>
+          <p className={"bottomNav__p" + (url === "/#/about" ?" activep" : "")}>About</p>
         </NavLink>
-        <NavLink className="bottomNav__link" to="/#projects">
+        <NavLink className="bottomNav__link" to="/#/projects">
           <img src={project} className={"bottomNav__logo filter-white" + (url === "/projects" ?" activeBot" : "")} alt="projects icon" />
-          <p className={"bottomNav__p" + (url === "/projects" ?" activep" : "")}>Projects</p>
+          <p className={"bottomNav__p" + (url === "/#/projects" ?" activep" : "")}>Projects</p>
         </NavLink>
-        <NavLink className="bottomNav__link" to="/#social">
-          <img src={project} className={"bottomNav__logo filter-white" + (url === "/projects" ?" activeBot" : "")} alt="social icon" />
-          <p className={"bottomNav__p" + (url === "/projects" ?" activep" : "")}>Social</p>
+        <NavLink className="bottomNav__link" to="/#/social">
+          <img src={social} className={"bottomNav__logo filter-white" + (url === "/projects" ?" activeBot" : "")} alt="social icon" />
+          <p className={"bottomNav__p" + (url === "/#/social" ?" activep" : "")}>Social</p>
         </NavLink>
-        <NavLink className="bottomNav__link" to="/#resume">
-          <img src={project} className={"bottomNav__logo filter-white" + (url === "/projects" ?" activeBot" : "")} alt="resume icon" />
-          <p className={"bottomNav__p" + (url === "/projects" ?" activep" : "")}>Resume</p>
+        <NavLink className="bottomNav__link" to="/#/resume">
+          <img src={resume} className={"bottomNav__logo filter-white" + (url === "/projects" ?" activeBot" : "")} alt="resume icon" />
+          <p className={"bottomNav__p" + (url === "/#/resume" ?" activep" : "")}>Resume</p>
         </NavLink>
       </section>
   );
