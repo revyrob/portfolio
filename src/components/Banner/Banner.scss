@@ -2,12 +2,13 @@
 @use '../../styles/variables' as *;
 
 .banner {
-    height:100vh;
+    height:80vh;
+    @include tablet {
+        height: 95vh;
+    }
     &__sketch {
     height:100vh;
-        @include desktop {
-     
-        }
+
     }
     
 }
