@@ -12,7 +12,9 @@ import ProjectList from "./components/ProjectList/ProjectList";
 import ProjectData from "./data/projects.json";
 import Banner from "./components/Banner/Banner";
 import About from "./components/About/About";
-const TRACKING_ID = "UA-212922012-1"; // OUR_TRACKING_ID
+import Footer from "./components/Footer/Footer";
+
+const TRACKING_ID = "UA-212922012-1"; // OUR_TRACKING_ID for google analytics
 ReactGA.initialize(TRACKING_ID);
 
 function App() {
@@ -31,6 +33,7 @@ function App() {
       {/* </section> */}
       <About />
       <ProjectList id="projects" projects={projects} />
+      <Footer />
     </BrowserRouter>
     // <>
     //   <section className="landing">

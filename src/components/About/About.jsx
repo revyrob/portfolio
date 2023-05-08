@@ -19,7 +19,7 @@ function About() {
 //   const [projects] = useState(ProjectData);
     return (
         <>
-        <section >
+        <section id="about">
         <div className='about'>
         <div className='about__more'>
         
@@ -27,7 +27,7 @@ function About() {
         <img className='about__img--self'  style={{
             transform: isInView ? "none" : "translateX(-200px)",
             opacity: isInView ? 1 : 0,
-            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, .7) 0.5s"
         }} src={kayle} alt='kayle robson portrait'/>
         </div>
         

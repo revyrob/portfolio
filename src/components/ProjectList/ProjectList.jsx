@@ -6,7 +6,7 @@ function ProjectList({projects}) {
    let array = Object.values(projects);
     //map through projects for each card
     return (
-        <section className="projectList">
+        <section id="projects" className="projectList">
             <h1 className="projectList__title">
                 {Object.keys(projects)}
             </h1>

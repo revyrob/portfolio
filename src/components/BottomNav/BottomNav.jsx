@@ -17,17 +17,25 @@ function BottomNav() {
   return (
   
     <section className="bottomNav">
-        <NavLink className="bottomNav__link" to="/">
+        {/* <NavLink className="bottomNav__link" to="/">
         <img src={home} className={"bottomNav__logo filter-white" + (url === "/" ?" activeBot" : "")} alt="Brainflix logo" />
           <p className={"bottomNav__p " + (url === "/" ?" activep" : "")}>Home</p>
-        </NavLink>
-        <NavLink className="bottomNav__link" to="/about">
-          <img src={info} className={"bottomNav__logo filter-white" + (url === "/about" ?" activeBot" : "")} alt="Brainflix logo" />
+        </NavLink> */}
+        <NavLink className="bottomNav__link" to="/#about">
+          <img src={info} className={"bottomNav__logo filter-white" + (url === "/about" ?" activeBot" : "")} alt="about icon" />
           <p className={"bottomNav__p" + (url === "/about" ?" activep" : "")}>About</p>
         </NavLink>
-        <NavLink className="bottomNav__link" to="/projects">
-          <img src={project} className={"bottomNav__logo filter-white" + (url === "/projects" ?" activeBot" : "")} alt="Brainflix logo" />
+        <NavLink className="bottomNav__link" to="/#projects">
+          <img src={project} className={"bottomNav__logo filter-white" + (url === "/projects" ?" activeBot" : "")} alt="projects icon" />
           <p className={"bottomNav__p" + (url === "/projects" ?" activep" : "")}>Projects</p>
+        </NavLink>
+        <NavLink className="bottomNav__link" to="/#social">
+          <img src={project} className={"bottomNav__logo filter-white" + (url === "/projects" ?" activeBot" : "")} alt="social icon" />
+          <p className={"bottomNav__p" + (url === "/projects" ?" activep" : "")}>Social</p>
+        </NavLink>
+        <NavLink className="bottomNav__link" to="/#resume">
+          <img src={project} className={"bottomNav__logo filter-white" + (url === "/projects" ?" activeBot" : "")} alt="resume icon" />
+          <p className={"bottomNav__p" + (url === "/projects" ?" activep" : "")}>Resume</p>
         </NavLink>
       </section>
   );
