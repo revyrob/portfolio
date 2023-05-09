@@ -58,7 +58,6 @@ function About() {
         <Info />
 
         </div>
-        {/* <ProjectList id="projects" projects={projects} /> */}
 
         </section>
         </>
