@@ -4,11 +4,10 @@ import github from '../../assets/icons/github.svg';
 import linkedIn from '../../assets/icons/icon-linkedin.png';
 import instagram from '../../assets/icons/icon-instagram.png';
 import mail from '../../assets/icons/mail-icon.svg';
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import { useInView } from "framer-motion";
 import Info from '../Info/Info';
-import ProjectList from '../ProjectList/ProjectList';
-import ProjectData from "../../data/projects.json";
+
 
 
 function About() {
@@ -16,7 +15,6 @@ function About() {
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true });
     //create a state with project data
-  const [projects] = useState(ProjectData);
     return (
         <>
         <section >
