@@ -27,10 +27,8 @@ function App() {
   //set light and dark them in app.js and pass it down to all pages
   return (
     <BrowserRouter>
-      {/* <section className="landing"> */}
       <Banner />
       <BottomNav />
-      {/* </section> */}
       <About />
       <ProjectList id="projects" projects={projects} />
       <Footer />

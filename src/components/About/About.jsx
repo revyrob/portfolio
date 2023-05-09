@@ -31,7 +31,7 @@ function About() {
         }} src={kayle} alt='kayle robson portrait'/>
         </div>
         
-        <div className='about__social' ref={ref}>
+        <div className='about__social' ref={ref} id="social">
         <div style={{
             transform: isInView ? "none" : "translateX(-200px)",
             opacity: isInView ? 1 : 0,
