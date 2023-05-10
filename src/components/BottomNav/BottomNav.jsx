@@ -1,6 +1,6 @@
 import "./BottomNav.scss";
 import social from "../../assets/icons/social-media.png";
-import resume from "../../assets/icons/resume.png";
+// import resume from "../../assets/icons/resume.png";
 import info from "../../assets/icons/info-icon.png";
 import project from "../../assets/icons/project-icon.png";
 import React, { useEffect, useState } from 'react';
