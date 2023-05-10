@@ -54,7 +54,9 @@
     -webkit-transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    background-color: $color-dark2-sec;
+    background: radial-gradient(circle at 2rem 1rem, $color-light-sec, $color-dark2-sec, black);
+
+    // background-color: $color-dark2-sec;
     position: absolute;
     top: 0;
     left: 0;
