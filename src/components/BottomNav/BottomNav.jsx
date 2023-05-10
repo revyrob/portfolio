@@ -33,10 +33,10 @@ function BottomNav() {
           <img src={social} className={"bottomNav__logo filter-white" + (url === "/#social" ? "activeBot" : "")} alt="social icon" />
           <p className={"bottomNav__p" + (url === "/#social" ?" activep" : "")}>Social</p>
         </NavHashLink>
-        <NavHashLink className="bottomNav__link" to="/#resume">
+        {/* <NavHashLink className="bottomNav__link" to="/#resume">
           <img src={resume} className={"bottomNav__logo filter-white" + (url === "/#resume" ? "activeBot" : "")} alt="resume icon" />
           <p className={"bottomNav__p" + (url === "/#resume" ?" activep" : "")}>Resume</p>
-        </NavHashLink>
+        </NavHashLink> */}
       </section>
   );
 }
