@@ -2,9 +2,8 @@
 @use '../../styles/variables' as *;
 
 .banner {
-    height:80vh;
+    width: 100%;
     @include tablet {
-        height: 95vh;
     }
     &__sketch {
     height:100vh;

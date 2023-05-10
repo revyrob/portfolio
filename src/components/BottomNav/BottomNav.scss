@@ -9,6 +9,26 @@
     justify-content: center;
     align-items: center;
     background-color: #4F4F4F;
+    background: 
+    /* texture */
+    repeating-linear-gradient(transparent 0 13%, #ffffff02 0 calc(13% + 1px), transparent 0) 30% 0% / 40% 100%,
+    repeating-linear-gradient(transparent 0 7%, #ffffff03 0 calc(7% + 1px), transparent 0) 70% 0% / 33% 100%,
+    repeating-linear-gradient(transparent 0 11%, #ffffff02 0 calc(11% + 1px), transparent 0) -10% 0% / 35% 100%,
+    repeating-linear-gradient(transparent 0 17%, #ffffff04 0 calc(17% + 1px), transparent 0) 110% 0% / 27% 100%,
+    repeating-linear-gradient(transparent 0 13%, #00000002 0 calc(13% + 1px), transparent 0) 60% -10% / 33% 100%,
+    repeating-linear-gradient(transparent 0 8%, #00000002 0 calc(8% + 1px), transparent 0) 21% 2% / 27% 100%,
+    repeating-linear-gradient(transparent 0 8%, #00000001 0 calc(8% + 1px), transparent 0) 31% 7% / 19% 100%,
+    /* /texture */
+    /* texture? */
+    // radial-gradient(farthest-side, #00000011, #0000 60%) 20% 50% / 50% 5%,
+    // radial-gradient(farthest-side, #ffffff08, #0000 60%) 50% 30% / 50% 7%,
+    /* colors and shadows */
+    radial-gradient(100% 10% at 60% 3%, #fff1, #0000 50%),
+    radial-gradient(100% 10% at 60% 97%, #fff3, #0000 50%),
+    radial-gradient(150% 10% at 50% 99%, #0009, #0000 50%),
+    linear-gradient(#fff1, #fff0 15%, #fff1 85%, #fff3),
+    linear-gradient(#fff2, #fff0 20%, #0000 96%, #0006),
+    linear-gradient(90deg, #555, #333 10%, #ccc 33%, #666 48% 52%, #555 90% 95%, #ccc);
     padding: 7px 10px;
     position: fixed;
     left: 50%;

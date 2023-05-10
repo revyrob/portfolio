@@ -1,10 +1,6 @@
 import "./App.scss";
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
-// import LandingPage from "./pages/LandingPage";
-// import AboutPage from "./pages/AboutPage";
-// import ProjectPage from "./pages/ProjectPage";
-// import NotFound from "./pages/NotFound";
 import ReactGA from "react-ga";
 import { useEffect, useState } from "react";
 import BottomNav from "./components/BottomNav/BottomNav";
