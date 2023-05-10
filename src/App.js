@@ -2,7 +2,7 @@ import "./App.scss";
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
-import ProjectPage from "./page/ProjectPage";
+import ProjectPage from "./pages/ProjectPage";
 import AboutPage from "./pages/AboutPage";
 import NotFound from "./pages/NotFound";
 import ReactGA from "react-ga";
