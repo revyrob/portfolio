@@ -7,23 +7,13 @@ import mail from '../../assets/icons/mail-icon.svg';
 import { useRef } from "react";
 import { useInView } from "framer-motion";
 import Info from '../Info/Info';
-<<<<<<< HEAD
-
-=======
-// import ProjectList from '../ProjectList/ProjectList';
-//import ProjectData from "../../data/projects.json";
->>>>>>> update/about
 
 
 function About() {
     //useRef and useInView for the photo of myself moving into the screen when 'inview'
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true });
-    //create a state with project data
-<<<<<<< HEAD
-=======
-//   const [projects] = useState(ProjectData);
->>>>>>> update/about
+
     return (
         <>
         <section id="about">
@@ -67,10 +57,6 @@ function About() {
         <Info />
 
         </div>
-<<<<<<< HEAD
-=======
-        {/* <ProjectList id="projects" projects={projects} /> */}
->>>>>>> update/about
 
         </section>
         </>

@@ -1,5 +1,4 @@
 import "./BottomNav.scss";
-import { NavLink } from "react-router-dom";
 import social from "../../assets/icons/social-media.png";
 import resume from "../../assets/icons/resume.png";
 import info from "../../assets/icons/info-icon.png";
@@ -22,10 +21,6 @@ function BottomNav() {
   return (
   
     <section className="bottomNav">
-        {/* <NavLink className="bottomNav__link" to="/">
-        <img src={home} className={"bottomNav__logo filter-white" + (url === "/" ?" activeBot" : "")} alt="Brainflix logo" />
-          <p className={"bottomNav__p " + (url === "/" ?" activep" : "")}>Home</p>
-        </NavLink> */}
         <NavHashLink className="bottomNav__link" to="/#about">
           <img src={info} className={"bottomNav__logo filter-white" + (url === "/#about" ? "activeBot" : "")} alt="about icon" />
           <p className={"bottomNav__p" + (url === "/#about" ?" activep" : "")}>About</p>

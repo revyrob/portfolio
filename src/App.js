@@ -1,14 +1,6 @@
 import "./App.scss";
 import React from "react";
-<<<<<<< HEAD
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import LandingPage from "./pages/LandingPage";
-import ProjectPage from "./pages/ProjectPage";
-import AboutPage from "./pages/AboutPage";
-import NotFound from "./pages/NotFound";
-=======
 import { BrowserRouter } from "react-router-dom";
->>>>>>> update/about
 import ReactGA from "react-ga";
 import { useEffect, useState } from "react";
 import BottomNav from "./components/BottomNav/BottomNav";
@@ -31,20 +23,11 @@ function App() {
   //set light and dark them in app.js and pass it down to all pages
   return (
     <BrowserRouter>
-<<<<<<< HEAD
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/About" element={<AboutPage />} />
-        <Route path="/Projects" element={<ProjectPage />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-=======
       <Banner />
       <BottomNav />
       <About />
       <ProjectList id="projects" projects={projects} />
       <Footer />
->>>>>>> update/about
     </BrowserRouter>
   );
 }
