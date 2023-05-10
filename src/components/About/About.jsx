@@ -7,7 +7,12 @@ import mail from '../../assets/icons/mail-icon.svg';
 import { useRef } from "react";
 import { useInView } from "framer-motion";
 import Info from '../Info/Info';
+<<<<<<< HEAD
 
+=======
+// import ProjectList from '../ProjectList/ProjectList';
+//import ProjectData from "../../data/projects.json";
+>>>>>>> update/about
 
 
 function About() {
@@ -15,9 +20,13 @@ function About() {
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true });
     //create a state with project data
+<<<<<<< HEAD
+=======
+//   const [projects] = useState(ProjectData);
+>>>>>>> update/about
     return (
         <>
-        <section >
+        <section id="about">
         <div className='about'>
         <div className='about__more'>
         
@@ -25,11 +34,11 @@ function About() {
         <img className='about__img--self'  style={{
             transform: isInView ? "none" : "translateX(-200px)",
             opacity: isInView ? 1 : 0,
-            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, .7) 0.5s"
         }} src={kayle} alt='kayle robson portrait'/>
         </div>
         
-        <div className='about__social' ref={ref}>
+        <div className='about__social' ref={ref} id="social">
         <div style={{
             transform: isInView ? "none" : "translateX(-200px)",
             opacity: isInView ? 1 : 0,
@@ -58,6 +67,10 @@ function About() {
         <Info />
 
         </div>
+<<<<<<< HEAD
+=======
+        {/* <ProjectList id="projects" projects={projects} /> */}
+>>>>>>> update/about
 
         </section>
         </>
